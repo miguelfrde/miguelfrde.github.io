@@ -1,0 +1,5 @@
+# Espresso project
+*.esproj
+
+# Mac
+.DS_Store
