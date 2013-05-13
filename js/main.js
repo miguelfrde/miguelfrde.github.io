@@ -1,21 +1,24 @@
 
-function socialImageIn() {
-	var name = $(this).attr('id');
-	name = name.substring(name.indexOf('-') + 1, name.length);
-	$(this).attr('src', 'img/' + name + '-color.png');
+function fadeHoverIn() {
+	$(this).stop().animate({"opacity": "0"}, "normal");
 }
 
-function socialImageOut() {
-	var name = $(this).attr('id');
-	name = name.substring(name.indexOf('-') + 1, name.length);
-	$(this).attr('src', 'img/' + name + '-black.png');
+function fadeHoverOut() {
+	$(this).stop().animate({"opacity": "1"}, "slow");
+}
+
+function showAlert() {
+	$('#alert-patience').fadeIn("normal");
+}
+
+function hideAlert() {
+	$('#alert-patience').fadeOut("normal");
 }
 
 $(document).ready(function() {
-	$('#social-mail').hover(socialImageIn, socialImageOut);
-	$('#social-twitter').hover(socialImageIn, socialImageOut);
-	$('#social-github').hover(socialImageIn, socialImageOut);
-	$('#social-googleplus').hover(socialImageIn, socialImageOut);
-	$('#social-linkedin').hover(socialImageIn, socialImageOut);
-	$('#social-rss').hover(socialImageIn, socialImageOut);
+	$("#alert-patience").hide();
+	$("img.fade-a").hover(fadeHoverIn, fadeHoverOut);
+	$("a.patience").click(showAlert);	
+	$("ul.nav li a").click(showAlert);
+	$("button.close").click(hideAlert);
 });

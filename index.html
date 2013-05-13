@@ -5,13 +5,19 @@
 		<meta name="description" content="Miguel Flores' personal website">
 		<meta name="author" content="Miguel Flores Ruiz de Eguino <miguel.frde@gmail.com>">
 		<link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
 		<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<title>~/miguelfrde</title>
+		<title>miguelfrde</title>
+		<style>
+			.alert-test {
+				position: absolute;
+				clear: none;
+				margin: 5px 0px 0 300px;
+			}
+		</style>
 	</head>
 	
 	<body>
@@ -19,25 +25,45 @@
 		
 			<!-- HEADER -->
 			<header>
-				<h1>~/miguelfrde</h1>
+				<a href="index.html"><h1>miguelfrde</h1></a>
 			</header>
+			
+			<div class="alert alert-test alert-success" id="alert-patience">
+			  <button type="button" class="close">&times;</button>
+			  <strong>Be patient!</strong> It's coming on a few weeks!
+			</div>
 			
 			<!-- SOCIAL LINKS -->
 			<div id="social">
-				<a href="mailto:miguel.frde@gmail.com"><img id="social-mail" src="img/mail-black.png" alt="Mail me!"></a>
-				<a href="https://twitter.com/miguelfrde"><img id="social-twitter" src="img/twitter-black.png" alt="Follow me on Twitter"></a>
-				<a href="http://github.com/miguelfrde"><img id="social-github" src="img/github-black.png" alt="Add me on G+"></a>
-				<a href="http://plus.google.com/114718819918352786710/"><img id="social-googleplus" src="img/googleplus-black.png" alt="Add me on G+"></a>
-				<a href="http://www.linkedin.com/in/miguelfrde"><img id="social-linkedin" src="img/linkedin-black.png" alt="Add me on LinkedIn"></a>
+				<span class="fadehover">
+					<a href="mailto:miguel.frde@gmail.com"><img id="social-mail" src="img/mail-black.png" alt="Mail me!" class="fade-a"></a>
+					<a href="mailto:miguel.frde@gmail.com"><img id="social-mail" src="img/mail-color.png" alt="Mail me!" class="dade-b"></a>
+				</span>
+				<span class="fadehover">
+					<a href="https://twitter.com/miguelfrde"><img id="social-twitter" src="img/twitter-black.png" alt="Follow me on Twitter" class="fade-a"></a>
+					<a href="https://twitter.com/miguelfrde"><img id="social-twitter" src="img/twitter-color.png" alt="Follow me on Twitter" class="dade-b"></a>
+				</span>
+				<span class="fadehover">
+					<a href="http://github.com/miguelfrde"><img id="social-github" src="img/github-black.png" alt="Add me on Github" class="fade-a"></a>
+					<a href="http://github.com/miguelfrde"><img id="social-github" src="img/github-color.png" alt="Add me on Github"></a>
+				<span class="fadehover">
+					<a href="http://plus.google.com/114718819918352786710/"><img id="social-googleplus" src="img/googleplus-black.png" alt="Add me on G+" class="fade-a"></a>
+					<a href="http://plus.google.com/114718819918352786710/"><img id="social-googleplus" src="img/googleplus-color.png" alt="Add me on G+" class="dade-b"></a>
+				</span>
+				<span class="fadehover">
+					<a href="http://www.linkedin.com/in/miguelfrde"><img id="social-linkedin" src="img/linkedin-black.png" alt="Add me on LinkedIn" class="fade-a"></a>
+					<a href="http://www.linkedin.com/in/miguelfrde"><img id="social-linkedin" src="img/linkedin-color.png" alt="Add me on LinkedIn" class="dade-b"></a>
+				</span>
 				<!--<a href="#"><img id="social-rss" src="img/rss-black.png" alt="Suscribe to RSS Feed"></a>-->
 			</div>
 			
+			<!-- NAVIGATION BAR -->
 			<nav>
 				<div class="navbar">
 					<div class="navbar-inner">
 						<ul class="nav">
 							<li class="active">
-								<a href="#">Home</a>
+								<a href="#">Blog</a>
 							</li>
 							<li><a href="#">About me</a></li>
 							<li><a href="#">Articles</a></li>
@@ -47,11 +73,36 @@
 				</div>
 			</nav>
 			
-			<section style="text-align: center; font-size: 50px; color: gray;">
-				Coming soon
-			</section>
+			<!-- CONTENT -->
+			<div class="row-fluid">
 			
-			<footer>
+				<!-- MAIN CONTENT -->
+				<section class="span9">
+					<span style="text-align: center; font-size: 50px; color: gray;">Coming soon</span>
+				</section>
+				
+				<!-- SIDEBAR -->
+				<section id="sidebar" class="span3">
+					<div class="sidebar-block center">
+						<h4>Who am I?</h4>
+						<a href="#" class="patience"><img src="img/profile.jpg" alt="Me" class="img-polaroid"></a>
+						<p>Miguel Flores Ruiz de Eguino</p>
+						<p class="small-description">
+							Developer &#149; Computer Scientist &#149; Programmer &#149; Musician
+							<br><a href="#" class="patience">Read more</a>
+						</p>
+					</div>
+					<div class="sidebar-block">
+						<h4 class="center">Blog archive</h4>
+						<p>
+							No posts yet.
+						</p>
+					</div>
+				</section>
+			</div>
+			
+			<!-- FOOTER -->
+			<footer class="center">
 				<hr class="soften">
 					<p id="footer-info">
 						Made by <a href="http://miguelfrde.github.io">Miguel Flores</a>
@@ -64,6 +115,8 @@
 			</footer>
 			
 		</div>
+		
+		<!-- JAVASCRIPT -->
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script src="js/main.js"></script>
     	<script src="js/bootstrap.min.js"></script>
