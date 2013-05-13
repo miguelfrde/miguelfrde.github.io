@@ -21,14 +21,20 @@ header {
 	float: left;
 }
 
-span.fadehover {
+li.fadehover {
+	list-style-type: none;
 	position: relative;
+	display: block;
+	float: left;
+	margin-right: 4px;
+	height: 32px;
+	width: 32px;
 }
 
 img.fade-a {
 	position: absolute;
 	left: 0;
-	top: -4px;
+	top: 0;
 	z-index: 10;
 }
 
