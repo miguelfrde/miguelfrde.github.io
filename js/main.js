@@ -8,11 +8,7 @@ function fadeHoverOut() {
 }
 
 function showAlert() {
-	$('#alert-patience').fadeIn("normal");
-}
-
-function hideAlert() {
-	$('#alert-patience').fadeOut("normal");
+	$('#alert-patience').fadeIn("normal").delay(1500).fadeOut("normal");
 }
 
 $(document).ready(function() {
@@ -20,5 +16,4 @@ $(document).ready(function() {
 	$("img.fade-a").hover(fadeHoverIn, fadeHoverOut);
 	$("a.patience").click(showAlert);	
 	$("ul.nav li a").click(showAlert);
-	$("button.close").click(hideAlert);
 });
