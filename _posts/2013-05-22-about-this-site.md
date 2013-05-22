@@ -5,7 +5,7 @@ category: Test
 tags: test
 year: 2013
 month: 5
-day: 23
+day: 22
 published: true
 summary: Hello world! My name is Miguel Flores. I'm currently a Computer Science student at ITESO in Guadalajara, Mexico. I'm interested in computer science, math, artificial intelligence, machine learning, music, technology, software, etc. After many years, I finally decided to setup a blog/personal webpage where I'll be posting Computer Science related stuff.
 comments: true

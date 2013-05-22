@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
 
 /********************** GENERAL **********************/
+
 body {
 	font-family: "Noto Sans" Arial sans-serif;
 }
@@ -19,16 +20,6 @@ hr.soften {
 	margin: 0;
 }
 
-.alert {
-	position: absolute;
-	clear: none;
-	left: 45%;
-	padding: 8px 14px 8px 14px;
-	margin-left: -100px;
-	margin-top: 5px;
-	display: none;
-}
-
 a {
 	text-decoration: none !important;
 }
@@ -36,6 +27,8 @@ a {
 p {
 	line-height: 1.75em;
 }
+
+/********************** HEADER **********************/
 
 header h1 {
 	font-size: 50px;
@@ -79,6 +72,14 @@ img.fade-b {
 	float: right;
 }
 
+/********************** NAVBAR **********************/
+
+nav {
+	margin: 100px 0 50px 0;
+}
+
+/********************** CONTENT **********************/
+
 #content {
 	text-align: justify;
 	color: #666;
@@ -88,37 +89,7 @@ img.fade-b {
 	text-align: center;
 }
 
-nav {
-	margin: 90px 0 50px 0;
-}
-
-#sidebar img {
-	margin: 0 15px 15px 15px;
-}
-
-.sidebar-block {
-	background: rgba(240,240,240, 0.5);
-	border-radius: 5px;
-	padding: 10px;
-	margin-bottom: 10px;
-}
-
-p.small-description {
-	font-size: 11px;
-}
-
-footer {
-	margin-top: 50px;
-	margin-bottom: 15px;
-}
-
-footer img {
-	vertical-align: middle;
-}
-
-#footer-info {
-	font-size: 10px;
-}
+/******************** FEED + POSTS ********************/
 
 #feed {
 	padding-right: 20px;
@@ -162,7 +133,41 @@ hr.article-divider {
 	height: 100px;
 }
 
-/* PLUGINS */
+
+/********************** SIDEBAR **********************/
+
+#sidebar img {
+	margin: 0 15px 15px 15px;
+}
+
+.sidebar-block {
+	background: rgba(240,240,240, 0.5);
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+p.small-description {
+	font-size: 11px;
+}
+
+/********************** FOOTER **********************/
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+footer img {
+	vertical-align: middle;
+}
+
+#footer-info {
+	font-size: 10px;
+}
+
+/********************** PLUGINS **********************/
+
 #disqus_thread {
 	margin: 10px 0;
 }

@@ -6,10 +6,10 @@ layout: default
 	<article class="feed-article">
 		<a href="{{ post.url }}"><h2 class="article-title">{{ post.title }}</h2></a>
 		<span class="article-date">{{post.date | date: "%b %d, %Y" }}</span>
-		<div class="article-summary">
+		<p class="article-summary">
 			{% if post.image_url %} <img class="post-image post-image-small" src="{{ post.image_url }}"> {% endif %}
 			{{ post.summary }}
-		</div>
+		</p>
 		<span class="read-more-link"><a href="{{ post.url }}" class="read-more-article">Read more &rarr;</a></span>
 		{% if post != site.posts.last %} <hr class="soften article-divider"> {% endif %}
 	</article>
