@@ -1,0 +1,11 @@
+markdown: rdiscount
+pygments: true
+permalink: /:year/:month/:day/:title
+comments :
+  provider : disqus
+  disqus :
+    short_name : miguelfrde
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-41047087-1'

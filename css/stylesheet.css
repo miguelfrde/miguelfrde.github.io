@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
 
+/********************** GENERAL **********************/
 body {
 	font-family: "Noto Sans" Arial sans-serif;
 }
@@ -8,12 +9,41 @@ body {
 	text-align: center;
 }
 
+hr.soften {
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+	border: 0;
+	margin: 0;
+}
+
+.alert {
+	position: absolute;
+	clear: none;
+	left: 45%;
+	padding: 8px 14px 8px 14px;
+	margin-left: -100px;
+	margin-top: 5px;
+	display: none;
+}
+
 a {
 	text-decoration: none !important;
 }
 
-h1 {
+p {
+	line-height: 1.75em;
+}
+
+header h1 {
+	font-size: 50px;
 	color: #666;
+}
+
+h2 {
+	margin-bottom: 20px;
 }
 
 header {
@@ -49,6 +79,15 @@ img.fade-b {
 	float: right;
 }
 
+#content {
+	text-align: justify;
+	color: #666;
+}
+
+.content-centered {
+	text-align: center;
+}
+
 nav {
 	margin: 90px 0 50px 0;
 }
@@ -68,14 +107,9 @@ p.small-description {
 	font-size: 11px;
 }
 
-hr.soften {
-	height: 1px;
-	margin: 50px 0;
-	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
-	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
-	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
-	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
-	border: 0;
+footer {
+	margin-top: 50px;
+	margin-bottom: 15px;
 }
 
 footer img {
@@ -84,4 +118,59 @@ footer img {
 
 #footer-info {
 	font-size: 10px;
+}
+
+#feed {
+	padding-right: 20px;
+}
+
+.article-title {
+	color: #666;
+}
+
+.article-summary {
+	clear: both;
+	margin: 10px 0;
+	text-align: justify;
+}
+
+.article-date {
+	color: #aaa;
+	font-size: 11px;
+}
+
+.read-more-link {
+	font-size: 11px;
+}
+
+hr.article-divider {
+	margin: 20px 0;
+}
+
+.list-posts {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.post-image {
+	float:  left;
+	margin: 0 10px 10px 0;
+}
+
+.post-image-small {
+	height: 100px;
+}
+
+/* PLUGINS */
+#disqus_thread {
+	margin: 10px 0;
+}
+
+.shareaholic-canvas {
+	margin:  20px 0;
+}
+
+ul.shareaholic-share-buttons {
+	margin: 0 !important;
 }
