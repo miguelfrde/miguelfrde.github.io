@@ -39,6 +39,10 @@ h2 {
 	margin-bottom: 20px;
 }
 
+h3, h2 {
+	clear: both;
+}
+
 header {
 	margin-top: 10px;
 	float: left;
@@ -131,6 +135,12 @@ hr.article-divider {
 
 .post-image-small {
 	height: 100px;
+}
+
+.project-image {
+	float: right;
+	margin-top: -10px;
+	margin-bottom: 40px;
 }
 
 
