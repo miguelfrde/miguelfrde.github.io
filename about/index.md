@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-<table class="table table-bordered table-hover table-striped" id="table-about">
+<table class="table table-bordered table-striped" id="table-about">
 	<tr>
 		<td class='table-left'>Contact</td>
 		<td><a href="mailto:miguel.frde@gmail.com">miguel.frde@gmail.com</a></td>
@@ -59,8 +59,8 @@ title: About me
 				<li><a href="https://www.udacity.com/course/cs101">Introduction to Computer Science</a> (February - April 2012)
 				<li><a href="https://www.udacity.com/course/cs212">Design of Computer Programs</a> (April - June 2012)
 				<li><a href="https://www.udacity.com/course/cs253">Web Development</a> (April - June 2012)
-				<li><a href="https://www.udacity.com/course/st101">Introduction to Statistics</a> (Summer 2012)
-				<li><a href="https://www.udacity.com/course/cs258">Software Testing</a> (Summer 2012)
+				<li><a href="https://www.udacity.com/course/st101">Introduction to Statistics</a> (June - August 2012)
+				<li><a href="https://www.udacity.com/course/cs258">Software Testing</a> (June - August 2012)
 			</ul>
 			Ongoing
 			<ul class="courses-list">			
