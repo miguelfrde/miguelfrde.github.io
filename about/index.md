@@ -24,7 +24,7 @@ title: About me
 	</tr>
 	<tr>
 		<td class='table-left'>Familiar</td>
-		<td>C/C++, MATLAB, PHP, Mathematica, Prolog</td>
+		<td>C/C++, MATLAB, PHP, Mathematica, Prolog, Verilog</td>
 	</tr>
 	<tr>
 		<td class='table-left'>OS</td>
@@ -43,11 +43,14 @@ title: About me
 				<li><a href="https://www.coursera.org/course/calcsing">Calculus: Single Variable</a> (Penn, January 2013)</li>
 				<li><a href="https://www.coursera.org/course/algs4partI">Algorithms Pt. I</a> (Princeton, February 2013)</li>
 				<li><a href="https://www.coursera.org/course/algs4partII">Algorithms Pt. II</a> (Princeton, March 2013)</li>
+				<li><a href="https://www.coursera.org/course/ml">Machine Learning</a> (Stanford, April 2013)</li>
 			</ul>
 			Ongoing
 			<ul class="courses-list">
-				<li><a href="https://www.coursera.org/course/ml">Machine Learning</a> (Stanford, April 2013)</li>
 				<li><a href="https://www.coursera.org/course/historyofrock1">History of Rock Pt. I</a> (Rochester, May 2013)</li>
+				<li><a href="https://www.coursera.org/course/optimization">Discrete Optimization</a> (Melbourne, June 2013)</li>
+				<!--<li><a href="https://www.coursera.org/course/matrix">Coding the Matrix: Linear Algebra through Computer Science Applications</a> (Brown, July 2013)</li>
+				<li><a href="https://www.coursera.org/course/historyofrock2">History of Rock Pt. II</a> (Rochester, July 2013)</li>-->
 			</ul>
 		</td>
 	</tr>
@@ -61,9 +64,6 @@ title: About me
 				<li><a href="https://www.udacity.com/course/cs253">Web Development</a> (April - June 2012)
 				<li><a href="https://www.udacity.com/course/st101">Introduction to Statistics</a> (June - August 2012)
 				<li><a href="https://www.udacity.com/course/cs258">Software Testing</a> (June - August 2012)
-			</ul>
-			Ongoing
-			<ul class="courses-list">			
 				<li><a href="https://www.udacity.com/course/cs271">Introduction to Artificial Intelligence</a> (Winter 2012, Summer 2013)</li>
 			</ul>
 		</td>
