@@ -44,13 +44,13 @@ title: About me
 				<li><a href="https://www.coursera.org/course/algs4partI">Algorithms Pt. I</a> (Princeton, February 2013)</li>
 				<li><a href="https://www.coursera.org/course/algs4partII">Algorithms Pt. II</a> (Princeton, March 2013)</li>
 				<li><a href="https://www.coursera.org/course/ml">Machine Learning</a> (Stanford, April 2013)</li>
+					<li><a href="https://www.coursera.org/course/historyofrock1">History of Rock Pt. I</a> (Rochester, May 2013)</li>
 			</ul>
 			Ongoing
 			<ul class="courses-list">
-				<li><a href="https://www.coursera.org/course/historyofrock1">History of Rock Pt. I</a> (Rochester, May 2013)</li>
 				<li><a href="https://www.coursera.org/course/optimization">Discrete Optimization</a> (Melbourne, June 2013)</li>
-				<!--<li><a href="https://www.coursera.org/course/matrix">Coding the Matrix: Linear Algebra through Computer Science Applications</a> (Brown, July 2013)</li>
-				<li><a href="https://www.coursera.org/course/historyofrock2">History of Rock Pt. II</a> (Rochester, July 2013)</li>-->
+				<li><a href="https://www.coursera.org/course/matrix">Coding the Matrix: Linear Algebra through Computer Science Applications</a> (Brown, July 2013)</li>
+				<li><a href="https://www.coursera.org/course/historyofrock2">History of Rock Pt. II</a> (Rochester, July 2013)</li>
 			</ul>
 		</td>
 	</tr>

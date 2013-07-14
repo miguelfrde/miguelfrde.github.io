@@ -1,5 +1,6 @@
 # Espresso project
 *.esproj
+*.espressostorage
 
 # Mac
 .DS_Store
