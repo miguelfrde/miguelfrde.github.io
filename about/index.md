@@ -56,6 +56,7 @@ title: About me
 			<ul class="courses-list">
 				<li><a href="https://www.coursera.org/course/db">Introduction to Databases</a> (Stanford, Self-paced)</li>
 				<li><a href="https://www.coursera.org/course/progfun">Functional Programming Principles in Scala</a> (EPFL, September 2013)</li>
+				<li><a href="https://www.coursera.org/course/musicproduction">Introduction to Music Production</a> (Berklee, October 2013)</li>
 			</ul>
 		</td>
 	</tr>
