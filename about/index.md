@@ -51,12 +51,13 @@ title: About me
 				<li><a href="https://www.coursera.org/course/historyofrock1">History of Rock Pt. I</a> (Rochester, May 2013)</li>
 				<li><a href="https://www.coursera.org/course/optimization">Discrete Optimization</a> (Melbourne, June 2013)</li>
 				<li><a href="https://www.coursera.org/course/historyofrock2">History of Rock Pt. II</a> (Rochester, July 2013)</li>
+				<li><a href="https://www.coursera.org/course/progfun">Functional Programming Principles in Scala</a> (EPFL, September 2013)</li>
 			</ul>
 			Ongoing
 			<ul class="courses-list">
 				<li><a href="https://www.coursera.org/course/db">Introduction to Databases</a> (Stanford, Self-paced)</li>
-				<li><a href="https://www.coursera.org/course/progfun">Functional Programming Principles in Scala</a> (EPFL, September 2013)</li>
 				<li><a href="https://www.coursera.org/course/musicproduction">Introduction to Music Production</a> (Berklee, October 2013)</li>
+				<li><a href="https://www.coursera.org/course/automata">Automata</a> (Stanford, Novemeber 2013)</li>
 			</ul>
 		</td>
 	</tr>
