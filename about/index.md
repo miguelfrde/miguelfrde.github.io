@@ -72,6 +72,7 @@ title: About me
 				<li><a href="https://www.udacity.com/course/st101">Introduction to Statistics</a> (June - August 2012)
 				<li><a href="https://www.udacity.com/course/cs258">Software Testing</a> (June - August 2012)
 				<li><a href="https://www.udacity.com/course/cs271">Introduction to Artificial Intelligence</a> (Winter 2012, Summer 2013)</li>
+				<li><a href="https://www.udacity.com/course/ud617">Introduction to Hadoop and MapReduce</a> (November 2013)</li>
 			</ul>
 		</td>
 	</tr>
