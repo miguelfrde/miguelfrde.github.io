@@ -30,6 +30,11 @@ Application to draw Flowcharts, run them and generate the code in four programmi
 
 [Download](https://dl.dropboxusercontent.com/u/17055504/Orkoraptor.jar "Download Orkoraptor")
 
+### Gamie
+<img src="/static/img/post_resources/gamie.png" class="project-image" alt="MLPNN screenshot">
+Application that allows teacher to setup great online courses and engages students who take them, thanks to gamification concepts like levels, achievements, lifes, etc. Built using Django. Developed with Fernando Padilla, Jorge Barba and Iván Alejandro Rojas for the course *Software Design*. Fall 2013.
+
+[Visit](http://gamie.herokuapp.com/ "Visit Friendacity")
 
 ### RushHour Solver
 <img src="/static/img/post_resources/solver.png" class="project-image" alt="Solver screenshot">
