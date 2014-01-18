@@ -3,6 +3,7 @@ layout: page
 title: About me
 ---
 
+
 <table class="table table-bordered table-striped" id="table-about">
 	<tr>
 		<td class='table-left'>Contact</td>
@@ -11,9 +12,9 @@ title: About me
 	<tr>
 		<td class='table-left'>Work</td>
 		<td>
-		Oracle intern (August 2013 - today)
+		Oracle intern. Part of the Timesten QA team for the Conacyt-Oracle-ITESO research project "Databases for real time applications and business intelligence" (August 2013 - today)
 		<br><br>
-		Research assistant of Dr. Hugo Iván Piza. Parallel genetic algorithms and neural networks (January 2013 - June 2013, still part of the project)
+		Research assistant of Dr. Hugo Iván Piza. Parallel genetic algorithms and neural networks (January 2013 - June 2013)
 		</td>
 	</tr>
 	<tr>
@@ -24,11 +25,11 @@ title: About me
 	</tr>
 	<tr>
 		<td class='table-left'>Proficient</td>
-		<td>Python, Java, JavaScript (with JQuery), HTML, CSS</td>
+		<td>Python, Java, JavaScript, HTML, CSS, Markdown, SQL</td>
 	</tr>
 	<tr>
 		<td class='table-left'>Familiar</td>
-		<td>C/C++, MATLAB, PHP, Mathematica, Prolog, Verilog</td>
+		<td>Scala, Ruby, C/C++, MATLAB, PHP, Mathematica, Prolog, Verilog</td>
 	</tr>
 	<tr>
 		<td class='table-left'>OS</td>
@@ -52,10 +53,6 @@ title: About me
 				<li><a href="https://www.coursera.org/course/optimization">Discrete Optimization</a> (Melbourne, June 2013)</li>
 				<li><a href="https://www.coursera.org/course/historyofrock2">History of Rock Pt. II</a> (Rochester, July 2013)</li>
 				<li><a href="https://www.coursera.org/course/progfun">Functional Programming Principles in Scala</a> (EPFL, September 2013)</li>
-			</ul>
-			Ongoing
-			<ul class="courses-list">
-				<li><a href="https://www.coursera.org/course/db">Introduction to Databases</a> (Stanford, Self-paced)</li>
 				<li><a href="https://www.coursera.org/course/musicproduction">Introduction to Music Production</a> (Berklee, October 2013)</li>
 				<li><a href="https://www.coursera.org/course/automata">Automata</a> (Stanford, Novemeber 2013)</li>
 			</ul>
@@ -73,6 +70,18 @@ title: About me
 				<li><a href="https://www.udacity.com/course/cs258">Software Testing</a> (June - August 2012)
 				<li><a href="https://www.udacity.com/course/cs271">Introduction to Artificial Intelligence</a> (Winter 2012, Summer 2013)</li>
 				<li><a href="https://www.udacity.com/course/ud617">Introduction to Hadoop and MapReduce</a> (November 2013)</li>
+				<li><a href="https://www.udacity.com/course/cs259">Software Debugging</a> (January 2014)</li>
+				<li><a href="https://www.udacity.com/course/cs256">Mobile Web Development</a> (January 2014)</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td class='table-left'>Stanford</td>
+		<td>
+			Ongoing
+			<ul class="courses-list">
+				<li><a href="https://class.stanford.edu/courses/Engineering/db/2014_1/about">Introduction to Databases</a> (January 2014)</li>
+				<li><a href="https://class.stanford.edu/courses/HumanitiesScience/StatLearning/Winter2014/about">Statistical Learning</a> (January 2014)</li>
 			</ul>
 		</td>
 	</tr>
