@@ -32,6 +32,10 @@ p {
 	line-height: 1.75em;
 }
 
+pre, .gist {
+	margin: 20px 0;
+}
+
 /********************** HEADER **********************/
 
 header h1 {
@@ -117,6 +121,11 @@ ul.courses-list {
 	padding-right: 20px;
 }
 
+article img, p img {
+	display: block;
+	margin: 10px auto 10px auto;
+}
+
 .article-title {
 	color: #666;
 }
@@ -132,8 +141,8 @@ ul.courses-list {
 	font-size: 11px;
 }
 
-.read-more-link {
-	font-size: 11px;
+.comments-link {
+	font-size: 13px;
 }
 
 hr.article-divider {

@@ -15,7 +15,7 @@ Developed using Python, JavaScript + jQuery and deployed to Google App Engine. I
 [Visit](http://friendacity.appspot.com/ "Visit Friendacity")
 
 
-## College projects
+## University projects
 
 ### Handwritten Digit Recognition
 <img src="/static/img/post_resources/mlpnn.png" class="project-image" alt="MLPNN screenshot">

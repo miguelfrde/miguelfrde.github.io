@@ -8,9 +8,9 @@ layout: default
 		<span class="article-date">{{post.date | date: "%b %d, %Y" }}</span>
 		<p class="article-summary">
 			{% if post.image_url %} <img class="post-image post-image-small" src="{{ post.image_url }}"> {% endif %}
-			{{ post.summary }}
+			{{ post.content }}
 		</p>
-		<span class="read-more-link"><a href="{{ post.url }}" class="read-more-article">Read more &rarr;</a></span>
+		<a href="{{ post.url }}" class="comments-link">Share your comments &rarr;</a>
 		{% if post != site.posts.last %} <hr class="soften article-divider"> {% endif %}
 	</article>
 {% endfor %}
