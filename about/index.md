@@ -81,8 +81,16 @@ title: About me
 			Ongoing
 			<ul class="courses-list">
 				<li><a href="https://class.stanford.edu/courses/Engineering/db/2014_1/about">Introduction to Databases</a> (January 2014)</li>
-				<li><a href="https://class.stanford.edu/courses/HumanitiesScience/StatLearning/Winter2014/about">Statistical Learning</a> (January 2014)</li>
 			</ul>
 		</td>
 	</tr>
+	<tr>
+        <td class='table-left'>edX</td>
+        <td>
+            Ongoing
+            <ul class="courses-list">
+                <li><a href="https://www.edx.org/course/utaustinx/utaustinx-ut-8-01x-jazz-appreciation-1149">Jazz Appreciation</a> (January 2014)</li>
+            </ul>
+        </td>
+    </tr>
 </table>
