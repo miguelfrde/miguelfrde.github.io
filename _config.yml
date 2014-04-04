@@ -1,6 +1,7 @@
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title
+encoding: utf-8
 comments :
   provider : disqus
   disqus :

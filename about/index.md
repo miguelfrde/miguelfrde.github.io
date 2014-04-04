@@ -25,11 +25,11 @@ title: About me
 	</tr>
 	<tr>
 		<td class='table-left'>Proficient</td>
-		<td>Python, Java, JavaScript, HTML, CSS, Markdown, SQL</td>
+		<td>Python, Ruby, Java, JavaScript, HTML, CSS, Markdown, SQL</td>
 	</tr>
 	<tr>
 		<td class='table-left'>Familiar</td>
-		<td>Scala, Ruby, C/C++, MATLAB, PHP, Mathematica, Prolog, Verilog</td>
+		<td>Go, Scala, C/C++, MATLAB, Mathematica, Prolog, Verilog</td>
 	</tr>
 	<tr>
 		<td class='table-left'>OS</td>
@@ -37,7 +37,7 @@ title: About me
 	</tr>
 	<tr>
 		<td class='table-left'>Interests</td>
-		<td>Computer Science, Algorithms, Artificial Intelligence, Machine Learning, Mathematics, Music (Rock, Jazz, Fusion, Metal)</td>
+		<td>Computer Science, Algorithms, Artificial Intelligence, Machine Learning, Software Engineering, Functional Programming, Mathematics, Music (Rock, Jazz, Fusion, Metal)</td>
 	</tr>
 	<tr>
 		<td class='table-left'>Coursera</td>
@@ -56,6 +56,12 @@ title: About me
 				<li><a href="https://www.coursera.org/course/musicproduction">Introduction to Music Production</a> (Berklee, October 2013)</li>
 				<li><a href="https://www.coursera.org/course/automata">Automata</a> (Stanford, Novemeber 2013)</li>
 			</ul>
+			Ongoing
+			<ul class="courses-list">
+				<li><a href="https://www.coursera.org/course/compilers">Compilers</a> (March 2014)</li>
+				<li><a href="https://www.coursera.org/course/webapplications">Web Applications Architectures</a> (March 2014)</li>
+				<li><a href="https://www.coursera.org/course/digital">Fundmentals of Digital Image and Video Processing</a> (April 2014)</li>
+			</ul>
 		</td>
 	</tr>
 	<tr>
@@ -63,11 +69,11 @@ title: About me
 		<td>
 			Finished
 			<ul class="courses-list">
-				<li><a href="https://www.udacity.com/course/cs101">Introduction to Computer Science</a> (February - April 2012)
-				<li><a href="https://www.udacity.com/course/cs212">Design of Computer Programs</a> (April - June 2012)
-				<li><a href="https://www.udacity.com/course/cs253">Web Development</a> (April - June 2012)
-				<li><a href="https://www.udacity.com/course/st101">Introduction to Statistics</a> (June - August 2012)
-				<li><a href="https://www.udacity.com/course/cs258">Software Testing</a> (June - August 2012)
+				<li><a href="https://www.udacity.com/course/cs101">Introduction to Computer Science</a> (February - April 2012)</li>
+				<li><a href="https://www.udacity.com/course/cs212">Design of Computer Programs</a> (April - June 2012)</li>
+				<li><a href="https://www.udacity.com/course/cs253">Web Development</a> (April - June 2012)</li>
+				<li><a href="https://www.udacity.com/course/st101">Introduction to Statistics</a> (June - August 2012)</li>
+				<li><a href="https://www.udacity.com/course/cs258">Software Testing</a> (June - August 2012)</li>
 				<li><a href="https://www.udacity.com/course/cs271">Introduction to Artificial Intelligence</a> (Winter 2012, Summer 2013)</li>
 				<li><a href="https://www.udacity.com/course/ud617">Introduction to Hadoop and MapReduce</a> (November 2013)</li>
 				<li><a href="https://www.udacity.com/course/cs259">Software Debugging</a> (January 2014)</li>
@@ -78,7 +84,7 @@ title: About me
 	<tr>
 		<td class='table-left'>Stanford</td>
 		<td>
-			Ongoing
+			Finished
 			<ul class="courses-list">
 				<li><a href="https://class.stanford.edu/courses/Engineering/db/2014_1/about">Introduction to Databases</a> (January 2014)</li>
 			</ul>
@@ -87,7 +93,7 @@ title: About me
 	<tr>
         <td class='table-left'>edX</td>
         <td>
-            Ongoing
+            Finished
             <ul class="courses-list">
                 <li><a href="https://www.edx.org/course/utaustinx/utaustinx-ut-8-01x-jazz-appreciation-1149">Jazz Appreciation</a> (January 2014)</li>
             </ul>
