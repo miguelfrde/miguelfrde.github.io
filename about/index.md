@@ -29,7 +29,7 @@ title: About me
 	</tr>
 	<tr>
 		<td class='table-left'>Familiar</td>
-		<td>Go, Scala, C/C++, MATLAB, Mathematica, Prolog, Verilog</td>
+		<td>Go, Scala, C/C++, MATLAB, Mathematica, Prolog, Verilog, LaTeX</td>
 	</tr>
 	<tr>
 		<td class='table-left'>OS</td>
@@ -61,6 +61,7 @@ title: About me
 				<li><a href="https://www.coursera.org/course/compilers">Compilers</a> (March 2014)</li>
 				<li><a href="https://www.coursera.org/course/webapplications">Web Applications Architectures</a> (March 2014)</li>
 				<li><a href="https://www.coursera.org/course/digital">Fundmentals of Digital Image and Video Processing</a> (April 2014)</li>
+				<li><a href="https://www.coursera.org/course/algo">Algorithms: Design and Analysis Part I</a> (April 2014)</li>
 			</ul>
 		</td>
 	</tr>
@@ -96,6 +97,10 @@ title: About me
             Finished
             <ul class="courses-list">
                 <li><a href="https://www.edx.org/course/utaustinx/utaustinx-ut-8-01x-jazz-appreciation-1149">Jazz Appreciation</a> (January 2014)</li>
+            </ul>
+            Ongoing
+            <ul class="courses-list">
+                <li><a href="https://www.edx.org/course/uc-berkeleyx/uc-berkeleyx-cs169-1x-engineering-1377">Engineering Software as a Service</a> (April 2014)</li>
             </ul>
         </td>
     </tr>
