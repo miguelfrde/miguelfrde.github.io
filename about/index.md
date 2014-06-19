@@ -25,11 +25,11 @@ title: About me
 	</tr>
 	<tr>
 		<td class='table-left'>Proficient</td>
-		<td>Python, Ruby, Java, JavaScript, HTML, CSS, Markdown, SQL</td>
+		<td>Python, Ruby, Java, JavaScript, C, HTML, CSS, Markdown, SQL</td>
 	</tr>
 	<tr>
 		<td class='table-left'>Familiar</td>
-		<td>Go, Scala, C/C++, MATLAB, Mathematica, Prolog, Verilog, LaTeX</td>
+		<td>Go, Scala, C++, MATLAB, Mathematica, LaTeX</td>
 	</tr>
 	<tr>
 		<td class='table-left'>OS</td>
@@ -55,13 +55,9 @@ title: About me
 				<li><a href="https://www.coursera.org/course/progfun">Functional Programming Principles in Scala</a> (EPFL, September 2013)</li>
 				<li><a href="https://www.coursera.org/course/musicproduction">Introduction to Music Production</a> (Berklee, October 2013)</li>
 				<li><a href="https://www.coursera.org/course/automata">Automata</a> (Stanford, Novemeber 2013)</li>
-			</ul>
-			Ongoing
-			<ul class="courses-list">
-				<li><a href="https://www.coursera.org/course/compilers">Compilers</a> (March 2014)</li>
-				<li><a href="https://www.coursera.org/course/webapplications">Web Applications Architectures</a> (March 2014)</li>
-				<li><a href="https://www.coursera.org/course/digital">Fundmentals of Digital Image and Video Processing</a> (April 2014)</li>
-				<li><a href="https://www.coursera.org/course/algo">Algorithms: Design and Analysis Part I</a> (April 2014)</li>
+				<li><a href="https://www.coursera.org/course/compilers">Compilers</a> (Stanford, March 2014)</li>
+				<li><a href="https://www.coursera.org/course/webapplications">Web Applications Architectures</a> (UNM, March 2014)</li>
+				<li><a href="https://www.coursera.org/course/algo">Algorithms: Design and Analysis Part I</a> (Stanford, April 2014)</li>
 			</ul>
 		</td>
 	</tr>
@@ -96,11 +92,12 @@ title: About me
         <td>
             Finished
             <ul class="courses-list">
-                <li><a href="https://www.edx.org/course/utaustinx/utaustinx-ut-8-01x-jazz-appreciation-1149">Jazz Appreciation</a> (January 2014)</li>
+                <li><a href="https://www.edx.org/course/utaustinx/utaustinx-ut-8-01x-jazz-appreciation-1149">Jazz Appreciation</a> (The University of Texas, January 2014)</li>
+                <li><a href="https://www.edx.org/course/uc-berkeleyx/uc-berkeleyx-cs169-1x-engineering-1377">CS169.1X Engineering Software as a Service</a> (Berkeley, April 2014)</li>
             </ul>
             Ongoing
             <ul class="courses-list">
-                <li><a href="https://www.edx.org/course/uc-berkeleyx/uc-berkeleyx-cs169-1x-engineering-1377">Engineering Software as a Service</a> (April 2014)</li>
+            	<li><a href="https://www.edx.org/course/uc-berkeleyx/uc-berkeleyx-cs169-2x-software-service-1275">CS169.2X Software as a Service</a> (Berkeley, June 2014)</li>
             </ul>
         </td>
     </tr>
