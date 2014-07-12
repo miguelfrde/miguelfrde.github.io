@@ -12,9 +12,13 @@ title: About me
 	<tr>
 		<td class='table-left'>Work</td>
 		<td>
-		Oracle intern. Part of the Timesten QA team for the Conacyt-Oracle-ITESO research project "Databases for real time applications and business intelligence" (August 2013 - today)
+		<b>Oracle intern</b>
+		<br>Conacyt-Oracle-ITESO research project "Databases for real time applications and business intelligence".
+		Half of the time I worked on that project, I was part of the QA development team in Timesten. I worked with some Perl scripts and ODBC tests.
+		The other half of the time, I worked with RDMA using the Verbs API. (August 2013 - June 2014)
 		<br><br>
-		Research assistant of Dr. Hugo Iván Piza. Parallel genetic algorithms and neural networks (January 2013 - June 2013)
+		<b>Research assistant</b>
+		<br>Worked with Dr. Hugo Iván Piza on parallel genetic algorithms and neural networks (January 2013 - June 2013)
 		</td>
 	</tr>
 	<tr>
@@ -59,6 +63,11 @@ title: About me
 				<li><a href="https://www.coursera.org/course/webapplications">Web Applications Architectures</a> (UNM, March 2014)</li>
 				<li><a href="https://www.coursera.org/course/algo">Algorithms: Design and Analysis Part I</a> (Stanford, April 2014)</li>
 			</ul>
+            Ongoing
+            <ul class="courses-list">
+				<li><a href="https://www.coursera.org/course/hwswinterface">The Hardware Software Interface</a> (U. of Washington, June 2014)</li>
+				<li><a href="https://www.coursera.org/course/musictheory">Fundamentals of Music Theory</a> (U. of Edinburgh, July 2014)</li>
+            </ul>
 		</td>
 	</tr>
 	<tr>
