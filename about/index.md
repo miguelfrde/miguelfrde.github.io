@@ -12,28 +12,30 @@ title: About me
 	<tr>
 		<td class='table-left'>Work</td>
 		<td>
-		<b>Oracle intern</b>
-		<br>Conacyt-Oracle-ITESO research project "Databases for real time applications and business intelligence".
-		Half of the time I worked on that project, I was part of the QA development team in Timesten. I worked with some Perl scripts and ODBC tests.
-		The other half of the time, I worked with RDMA using the Verbs API. (August 2013 - June 2014)
-		<br><br>
-		<b>Research assistant</b>
-		<br>Worked with Dr. Hugo Iván Piza on parallel genetic algorithms and neural networks (January 2013 - June 2013)
+		    <b>Oracle intern</b>
+		    <br>Conacyt-Oracle-ITESO research project "Databases for real time applications and business intelligence".
+		    Half of the time I worked on that project, I was part of the QA development team in Timesten. I worked with some Perl scripts and ODBC tests.
+		    The other half of the time, I worked with RDMA using the Verbs API. (August 2013 - June 2014)
+		    <br><br>
+		    <b>Research assistant</b>
+		    <br>Worked with Dr. Hugo Iván Piza on parallel genetic algorithms and neural networks (January 2013 - June 2013)
 		</td>
 	</tr>
 	<tr>
 		<td class='table-left'>Education</td>
 		<td>
-			University: Computer Science, <a href="http://iteso.mx">ITESO</a>, 2011 - 2015 (expected)<br>
+            <b>Mälardalen University</b>, Exchange studies (Autumn 2014)
+            <br><br>
+            <b>ITESO</b>, BSc Computer Science, 2011 - 2015 (expected)
 		</td>
 	</tr>
 	<tr>
 		<td class='table-left'>Proficient</td>
-		<td>Python, Ruby, Java, JavaScript, C, HTML, CSS, Markdown, SQL</td>
+		<td>Python, Ruby, Java, JavaScript, C, HTML, CSS, Markdown, SQL, Go</td>
 	</tr>
 	<tr>
 		<td class='table-left'>Familiar</td>
-		<td>Go, Scala, C++, MATLAB, Mathematica, LaTeX</td>
+		<td>Scala, C++, MATLAB, Mathematica, LaTeX</td>
 	</tr>
 	<tr>
 		<td class='table-left'>OS</td>
@@ -62,11 +64,7 @@ title: About me
 				<li><a href="https://www.coursera.org/course/compilers">Compilers</a> (Stanford, March 2014)</li>
 				<li><a href="https://www.coursera.org/course/webapplications">Web Applications Architectures</a> (UNM, March 2014)</li>
 				<li><a href="https://www.coursera.org/course/algo">Algorithms: Design and Analysis Part I</a> (Stanford, April 2014)</li>
-			</ul>
-            Ongoing
-            <ul class="courses-list">
 				<li><a href="https://www.coursera.org/course/hwswinterface">The Hardware Software Interface</a> (U. of Washington, June 2014)</li>
-				<li><a href="https://www.coursera.org/course/musictheory">Fundamentals of Music Theory</a> (U. of Edinburgh, July 2014)</li>
             </ul>
 		</td>
 	</tr>
@@ -103,9 +101,6 @@ title: About me
             <ul class="courses-list">
                 <li><a href="https://www.edx.org/course/utaustinx/utaustinx-ut-8-01x-jazz-appreciation-1149">Jazz Appreciation</a> (The University of Texas, January 2014)</li>
                 <li><a href="https://www.edx.org/course/uc-berkeleyx/uc-berkeleyx-cs169-1x-engineering-1377">CS169.1X Engineering Software as a Service</a> (Berkeley, April 2014)</li>
-            </ul>
-            Ongoing
-            <ul class="courses-list">
             	<li><a href="https://www.edx.org/course/uc-berkeleyx/uc-berkeleyx-cs169-2x-software-service-1275">CS169.2X Software as a Service</a> (Berkeley, June 2014)</li>
             </ul>
         </td>
