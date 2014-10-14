@@ -12,13 +12,13 @@ title: About me
 	<tr>
 		<td class='table-left'>Work</td>
 		<td>
-		    <b>Oracle intern</b>
+		    <b>Oracle intern (Aug 2013 - Jun 2014)</b>
 		    <br>Conacyt-Oracle-ITESO research project "Databases for real time applications and business intelligence".
 		    Half of the time I worked on that project, I was part of the QA development team in Timesten. I worked with some Perl scripts and ODBC tests.
-		    The other half of the time, I worked with RDMA using the Verbs API. (August 2013 - June 2014)
+		    The other half of the time, I worked with RDMA using the Verbs API.
 		    <br><br>
-		    <b>Research assistant</b>
-		    <br>Worked with Dr. Hugo Iván Piza on parallel genetic algorithms and neural networks (January 2013 - June 2013)
+		    <b>Research assistant (Jan 2013 - Jun 2013</b>
+		    <br>Worked with Dr. Hugo Iván Piza on parallel genetic algorithms and neural networks.
 		</td>
 	</tr>
 	<tr>
@@ -31,11 +31,11 @@ title: About me
 	</tr>
 	<tr>
 		<td class='table-left'>Proficient</td>
-		<td>Python, Ruby, Java, JavaScript, C, HTML, CSS, Markdown, SQL, Go</td>
+		<td>Python, Ruby, Go, Java, JavaScript, C, HTML, CSS, SQL</td>
 	</tr>
 	<tr>
 		<td class='table-left'>Familiar</td>
-		<td>Scala, C++, MATLAB, Mathematica, LaTeX</td>
+		<td>Scala, Standard ML, C++, MATLAB, Mathematica, LaTeX</td>
 	</tr>
 	<tr>
 		<td class='table-left'>OS</td>
@@ -65,6 +65,10 @@ title: About me
 				<li><a href="https://www.coursera.org/course/webapplications">Web Applications Architectures</a> (UNM, March 2014)</li>
 				<li><a href="https://www.coursera.org/course/algo">Algorithms: Design and Analysis Part I</a> (Stanford, April 2014)</li>
 				<li><a href="https://www.coursera.org/course/hwswinterface">The Hardware Software Interface</a> (U. of Washington, June 2014)</li>
+            </ul>
+            Ongoing
+            <ul class="courses-list">
+                <li><a href="https://www.coursera.org/course/proglang">Programming Languages</a> (U. of Washington, October 2014)</li>
             </ul>
 		</td>
 	</tr>
