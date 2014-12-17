@@ -216,3 +216,8 @@ footer img {
 ul.shareaholic-share-buttons {
 	margin: 0 !important;
 }
+
+/********************* PROJECTS **********************/
+h2#university-projects {
+    margin-top: 50px;
+}
