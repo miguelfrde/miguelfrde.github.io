@@ -65,9 +65,6 @@ title: About me
 				<li><a href="https://www.coursera.org/course/webapplications">Web Applications Architectures</a> (UNM, March 2014)</li>
 				<li><a href="https://www.coursera.org/course/algo">Algorithms: Design and Analysis Part I</a> (Stanford, April 2014)</li>
 				<li><a href="https://www.coursera.org/course/hwswinterface">The Hardware Software Interface</a> (U. of Washington, June 2014)</li>
-            </ul>
-            Ongoing
-            <ul class="courses-list">
                 <li><a href="https://www.coursera.org/course/proglang">Programming Languages</a> (U. of Washington, October 2014)</li>
             </ul>
 		</td>
