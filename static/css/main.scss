@@ -1,0 +1,261 @@
+---
+---
+
+@import "colors";
+@import "typography";
+@import "medium-icon";
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  line-height: 2rem;
+}
+
+a:link,
+a:active,
+a:visited,
+a:hover,
+a {
+  text-decoration: none !important;
+  color: $dark-orange;
+}
+
+a {
+  transition: color 0.5s ease;
+}
+
+a:hover {
+  color: $light-orange;
+}
+
+body {
+  font-family: $font-stack !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.small-title {
+  font-weight: bold;
+}
+
+.bg-dark {
+  background-color: $darker-gray;
+}
+
+.bg-gray {
+  background-color: $dark-gray;
+}
+
+.bg-yellow {
+  background-color: $light-yellow;
+}
+
+/* Header */
+
+#top {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: url(../img/bg.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.header-content {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  a:link,
+  a:active,
+  a:visited,
+  a {
+    color: white !important;
+  }
+
+  a:hover {
+    color: $light-orange !important;
+  }
+
+  a {
+    margin: 0 0.6rem;
+  }
+}
+
+.social-buttons {
+  margin-top: 2rem;
+}
+
+.scroll-container {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+}
+
+/* Sections */
+
+section {
+  width: 100%;
+
+  .container {
+    max-width: 1280px;
+    padding: 40px 180px;
+
+    .row {
+      margin-top: 40px;
+    }
+
+    h3 {
+      margin: 50px 0;
+      color: $dark-orange;
+    }
+  }
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: $dark-orange;
+}
+
+/* Section about */
+
+#profile-pic {
+  border-radius: 100%;
+}
+
+#description {
+  margin-left: 5px;
+}
+
+
+/* Sections Experience and Education */
+
+.exp-period,
+.ed-period {
+  margin-top: 10px;
+}
+
+.exp-period,
+.ed-period,
+.exp-location,
+.ed-location {
+  font-size: 0.9rem;
+}
+
+ul.course-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul a {
+  color: black;
+}
+
+.course-date {
+  color: $light-gray;
+  font-size: 0.8rem;
+}
+
+/* Section Skills */
+
+ul.skill-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.skill-list li span.skill-name {
+  display: inline-block;
+  width: 60%;
+}
+
+ul.skill-list li span.skill-rank {
+  float: right;
+  color: $light-gray;
+}
+
+ul.skill-list li span.skill-rank .filled {
+  color: $dark-orange;
+}
+
+/* Section Projects */
+
+.project-name {
+  display: inline-block;
+}
+
+.project-date {
+  font-size: 0.9rem;
+  float: right;
+}
+
+.project-links {
+  margin: 0 !important;
+
+  .project-link {
+    padding: 0 !important;
+  }
+}
+
+/* Section Contact */
+
+section#contact {
+  color: white;
+  padding-bottom: 100px;
+
+  a,
+  a:link,
+  a:active,
+  a:visited {
+    color: white;
+  }
+
+  a:hover {
+    color: $light-orange;
+  }
+}
+
+.contact-item {
+  .contact-icon {
+    vertical-align: middle;
+    font-size: 2.5rem;
+  }
+}
+
+/* Footer */
+
+footer {
+  font-size: 0.9rem;
+  padding: 20px 0;
+  color: white;
+}

@@ -7,3 +7,6 @@
 
 # GitHub Pages
 _site/
+
+# Sass
+.sass-cache/

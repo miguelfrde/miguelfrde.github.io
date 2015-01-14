@@ -1,52 +1,26 @@
-<!-- HEADER -->
-<header>
-	<a href="/"><h1>miguelfrde</h1></a>
+<header id="top">
+  <div class="header-content">
+    <h1>{{site.title}}</h1>
+    <h3>Full-stack Software Developer</h3>
+    <div class="social-buttons">
+      <a href="mailto:miguel.frde@gmail.com">
+        <i class="fa fa-3x fa-envelope-o"></i>
+      </a>
+      <a href="http://www.github.com/miguelfrde">
+        <i class="fa fa-3x fa-github"></i>
+      </a>
+      <a href="http://www.twitter.com/miguelfrde">
+        <i class="fa fa-3x fa-twitter"></i>
+      </a>
+      <a href="http://www.linkedin.com/in/miguelfrde">
+        <i class="fa fa-3x fa-linkedin"></i>
+      </a>
+      <a href="https://medium.com/@miguelfrde">
+        <i class="fa fa-3x fa-medium"></i>
+      </a>
+    </div>
+    <div class="scroll-container">
+      <a href="#about"><i class="fa fa-4x fa-angle-double-down"></i></a>
+    </div>
+  </div>
 </header>
-
-<!-- SOCIAL LINKS -->
-<ul id="social">
-	<li class="fadehover">
-		<a href="mailto:miguel.frde@gmail.com"><img src="/static/img/mail-black.png" alt="Mail me!" class="fade-a"></a>
-		<a href="mailto:miguel.frde@gmail.com"><img src="/static/img/mail-color.png" alt="Mail me!" class="fade-b"></a>
-	</li>
-	<li class="fadehover">
-		<a href="http://github.com/miguelfrde"><img src="/static/img/github-black.png" alt="Add me on Github" class="fade-a"></a>
-		<a href="http://github.com/miguelfrde"><img src="/static/img/github-color.png" alt="Add me on Github" class="fade-b"></a>
-	</li>
-	<li class="fadehover">
-		<a href="https://twitter.com/miguelfrde"><img src="/static/img/twitter-black.png" alt="Follow me on Twitter" class="fade-a"></a>
-		<a href="https://twitter.com/miguelfrde"><img src="/static/img/twitter-color.png" alt="Follow me on Twitter" class="fade-b"></a>
-	</li>
-	<li class="fadehover">
-		<a href="http://plus.google.com/114718819918352786710/"><img src="/static/img/googleplus-black.png" alt="Add me on G+" class="fade-a"></a>
-		<a href="http://plus.google.com/114718819918352786710/"><img src="/static/img/googleplus-color.png" alt="Add me on G+" class="fade-b"></a>
-	</li>
-	<li class="fadehover">
-		<a href="http://www.linkedin.com/in/miguelfrde"><img src="/static/img/linkedin-black.png" alt="Add me on LinkedIn" class="fade-a"></a>
-		<a href="http://www.linkedin.com/in/miguelfrde"><img src="/static/img/linkedin-color.png" alt="Add me on LinkedIn" class="fade-b"></a>
-	</li>
-	<li class="fadehover">
-		<a href="http://feeds.feedburner.com/miguelfrde"><img src="/static/img/rss-black.png" alt="Suscribe" class="fade-a"></a>
-		<a href="http://feeds.feedburner.com/miguelfrde"><img src="/static/img/rss-color.png" alt="Suscribe" class="fade-b"></a>
-	</li>
-	<!--<a href="#"><img id="social-rss" src="/img/rss-black.png" alt="Suscribe to RSS Feed"></a>-->
-</ul>
-
-<!-- NAVIGATION BAR -->
-<nav>
-	<div class="navbar">
-		<div class="navbar-inner">
-			<ul class="nav">
-				<li class="{% if page.url == '/index.html' %}active{% endif %}">
-					<a href="/">Blog</a>
-				</li>
-				<li class="{% if page.url == '/about/index.html' %}active{% endif %}">
-					<a href="/about">About me</a>
-				</li>
-				<li class="{% if page.url == '/projects/index.html' %}active{% endif %}">
-					<a href="/projects">Projects</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-</nav>

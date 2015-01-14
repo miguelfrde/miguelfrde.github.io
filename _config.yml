@@ -1,12 +1,14 @@
-markdown: rdiscount
-highlighter: true
-permalink: /:year/:month/:day/:title
-encoding: utf-8
-comments :
-  provider : disqus
-  disqus :
-    short_name : miguelfrde
-analytics :
-  provider : google
-  google : 
-      tracking_id : 'UA-41047087-1'
+# Site settings
+title: Miguel Flores
+subtitle: miguelfrde
+baseurl: ""
+url: "http://miguelfrde.com"
+css_path: "/static/css/"
+js_path: "/static/js/"
+img_path: "/static/img/"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+sass:
+    style: :compressed
