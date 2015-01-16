@@ -122,6 +122,108 @@ body {
   width: 100%;
 }
 
+/* Navbar */
+
+.navbar {
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 8px 6px -5px rgba(100,100,100,0.1);
+
+  .navbar-brand {
+    color: $dark-orange;
+  }
+
+  .navbar-brand:hover {
+    color: $dark-orange;
+  }
+
+  .navbar-collapse {
+    overflow-x: visible;
+  }
+
+  .nav li.active a,
+  .nav li a:focus,
+  .nav li a:hover,
+  .nav li a:active,
+  .nav li.active a:focus,
+  .nav li.active a:hover,
+  .nav li.active a:hover {
+    background: none;
+    color: $dark-orange;
+  }
+}
+
+nav.fixed {
+  position: fixed;
+  top: 0;
+}
+
+.with-navbar-padding {
+  padding-top: 60px;
+}
+
+/*
+.navbar  {
+  border: 0px;
+  background-color: $darker-gray;
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  width: 110px;
+  z-index: 999;
+  border-radius: 0;
+  box-shadow: 0px 14px 23px -4px rgba(0,0,0,0.29);
+}
+
+.navbar .navbar-collapse {
+  padding: 0px;
+  max-height: none;
+}
+
+.navbar .navbar-nav {
+  float: none;
+}
+
+.navbar-nav {
+  margin: 0px;
+}
+
+.navbar .nav > li {
+  display: block;
+  float: none;
+  height: 80px;
+}
+
+.navbar .nav > li a {
+  display: block;
+  height: 80px;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.navbar .nav > li a:hover,
+.navbar .nav > li a:focus {
+  color: $light-orange;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background: #22A39F;
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+  background: #222222;
+}
+*/
+
 /* Sections */
 
 section {
