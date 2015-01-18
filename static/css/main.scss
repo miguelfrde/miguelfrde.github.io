@@ -5,6 +5,11 @@
 @import "typography";
 @import "medium-icon";
 
+$screen-large: 1200px;
+$screen-medium: 992px;
+$screen-small: 768px;
+
+
 html,
 body {
   width: 100%;
@@ -86,12 +91,17 @@ body {
   h1 {
     margin: 0;
     padding: 0;
-    font-size: 4rem;
     font-weight: 700;
   }
 
-  h3 {
-    font-size: 2rem;
+  @media screen and (min-width: $screen-medium) {
+    h1 {
+      font-size: 4rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+    }
   }
 
   a:link,
@@ -112,6 +122,11 @@ body {
 
 .social-buttons {
   margin-top: 2rem;
+  font-size: 2rem;
+
+  @media screen and (min-width: $screen-medium) {
+    font-size: 3rem;
+  }
 }
 
 .scroll-container {
@@ -120,6 +135,11 @@ body {
   bottom: 0;
   height: 100px;
   width: 100%;
+  font-size: 3rem;
+
+  @media screen and (min-width: $screen-medium) {
+    font-size: 4rem;
+  }
 }
 
 /* Navbar */
@@ -165,65 +185,6 @@ nav.fixed {
   padding-top: 60px;
 }
 
-/*
-.navbar  {
-  border: 0px;
-  background-color: $darker-gray;
-  position: absolute;
-  top: 100%;
-  left: 10%;
-  width: 110px;
-  z-index: 999;
-  border-radius: 0;
-  box-shadow: 0px 14px 23px -4px rgba(0,0,0,0.29);
-}
-
-.navbar .navbar-collapse {
-  padding: 0px;
-  max-height: none;
-}
-
-.navbar .navbar-nav {
-  float: none;
-}
-
-.navbar-nav {
-  margin: 0px;
-}
-
-.navbar .nav > li {
-  display: block;
-  float: none;
-  height: 80px;
-}
-
-.navbar .nav > li a {
-  display: block;
-  height: 80px;
-  text-align: center;
-  padding-top: 30px;
-  font-weight: 600;
-  color: #FFFFFF;
-}
-
-.navbar .nav > li a:hover,
-.navbar .nav > li a:focus {
-  color: $light-orange;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  background: #22A39F;
-  color: #FFFFFF;
-}
-
-.navbar-default .navbar-toggle:hover .icon-bar,
-.navbar-default .navbar-toggle:focus .icon-bar {
-  background: #222222;
-}
-*/
-
 /* Sections */
 
 section {
@@ -231,7 +192,6 @@ section {
 
   .container {
     max-width: 1280px;
-    padding: 40px 180px;
 
     .row {
       margin-top: 40px;
@@ -240,6 +200,10 @@ section {
     h3 {
       margin: 50px 0;
       color: $dark-orange;
+    }
+
+    @media screen and (min-width: $screen-large) {
+      padding: 40px 180px;
     }
   }
 }
@@ -251,6 +215,16 @@ h2 {
 }
 
 /* Section about */
+
+#pic-container {
+  text-align: center;
+}
+
+#profile-data {
+  @media screen and (max-width: $screen-small) {
+    margin-top: 1rem;
+  }
+}
 
 #profile-pic {
   border-radius: 100%;
@@ -321,11 +295,22 @@ ul.skill-list li span.skill-rank .filled {
   float: right;
 }
 
+.project-image {
+  width: 100%;
+}
+
 .project-links {
   margin: 0 !important;
 
   .project-link {
     padding: 0 !important;
+  }
+
+  .project-link.center,
+  .project-link.right {
+    @media screen and (max-width: $screen-medium) {
+      text-align: left;
+    }
   }
 }
 
@@ -351,6 +336,16 @@ section#contact {
   .contact-icon {
     vertical-align: middle;
     font-size: 2.5rem;
+  }
+  @media screen and (max-width: $screen-medium) {
+    margin-bottom: 1rem;
+  }
+}
+
+.contact-item.center,
+.contact-item.right {
+  @media screen and (max-width: $screen-medium) {
+    text-align: left !important;
   }
 }
 
