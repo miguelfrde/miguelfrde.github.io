@@ -80,6 +80,21 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+
+  /* for background-size:cover replacement on iOS devices */
+  @media only screen and (orientation: portrait) and (device-width: 320px),
+  (device-width: 768px) {
+    background-color: black;
+    -webkit-background-size: auto 150%;
+    background-attachment: scroll;
+  }
+
+  @media only screen and (orientation: landscape) and (device-width: 320px),
+  (device-width: 768px) {
+    background-color: black;
+    -webkit-background-size: 150% auto;
+    background-attachment: scroll;
+  }
 }
 
 .header-content {
