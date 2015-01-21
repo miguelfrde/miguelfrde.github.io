@@ -1,0 +1,16 @@
+<ul class="course-list">
+  {% for course in include.courses %}
+    <li>
+      <a href="{{ course.url }}">
+        <i class="fa fa-globe fa-fw"></i>
+      </a>
+      {{ course.name }}
+      <span class="course-date">
+        {% if course.university %}
+          {{ course.university }},
+        {% endif %}
+        {{ course.period }}
+      </span>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,40 +1,22 @@
 <section id="experience" class="content-section bg-yellow full-page-section">
   <div class="container">
     <h2>Experience</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <img src="{{ 'oracle.svg' | prepend: site.img_path }}" alt="Oracle" class="company-logo" width="150">
-        <p class="exp-period">August 2013 - June 2014</p>
-        <p class="exp-location">
-          <i class="fa fa-map-marker"></i>&nbsp; Guadalajara, Mexico
-        </p>
+    {% for work in site.data.experience %}
+      <div class="row">
+        <div class="col-md-4">
+          <img src="{{ work.image | prepend: site.img_path }}" alt="{{ work.company }}" class="company-logo" width="150">
+          <p class="exp-period">{{ work.period }}</p>
+          <p class="exp-location">
+            <i class="fa fa-map-marker"></i>&nbsp; {{ work.location }}
+          </p>
+        </div>
+        <div class="col-md-8">
+          <p class="small-title">{{ work.position }}</p>
+          <p class="exp-description">
+            {{ work.description }}
+          </p>
+        </div>
       </div>
-      <div class="col-md-8">
-        <p class="small-title">Intern</p>
-        <p class="exp-description">
-          Conacyt-Oracle-ITESO research project "Databases for real time
-          applications and business intelligence". Half of the time I worked on
-          that project, I was part of the QA development team in Timesten. I
-          worked with some Perl scripts and ODBC tests. The other half of the
-          time, I worked with RDMA using the Verbs API.
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <img src="{{ 'iteso.png' | prepend: site.img_path }}" alt="ITESO" class="company-logo">
-        <p class="exp-period">January 2013 - June 2013</p>
-        <p class="exp-location">
-          <i class="fa fa-map-marker"></i>&nbsp; Guadalajara, Mexico
-        </p>
-      </div>
-      <div class="col-md-8">
-        <p class="small-title">Research Assistant Intern</p>
-        <p class="exp-description">
-          Worked with Dr. Hugo Iván Piza on parallel genetic algorithms to
-          optimize neural networks training.
-        </p>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </section>

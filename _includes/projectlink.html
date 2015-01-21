@@ -1,0 +1,16 @@
+<div class="col-md-4 project-link {{include.side}}">
+  <a href="{{include.link.url}}">
+    {% case include.link.type %}
+      {% when 'website' %}
+        <i class="fa fa-globe fa-fw"></i> Website
+      {% when 'github' %}
+        <i class="fa fa-github-alt fa-fw"></i> GitHub
+      {% when 'video' %}
+        <i class="fa fa-video-camera fa-fw"></i> Video
+      {% when 'report' %}
+        <i class="fa fa-file-text-o fa-fw"></i> Report
+      {% when 'download' %}
+        <i class="fa fa-cloud-download fa-fw"></i> Download
+    {% endcase %}
+  </a>
+</div>

@@ -1,0 +1,21 @@
+- company: Oracle
+  image: oracle.svg
+  period: August 2013 - June 2014
+  location: Guadalajara, México
+  position: Intern
+  description: >
+    Conacyt-Oracle-ITESO research project "Databases for real time applications
+    and business intelligence". Most of the time I worked on that project, I was
+    part of the QA development team in Timesten. I worked with some Perl scripts
+    and ODBC tests for the Timesten team. The rest of the time, I worked on the
+    research project with RDMA using the Verbs API.
+
+
+- company: ITESO
+  image: iteso.png
+  period: January 2013 - June 2013
+  location: Guadalajara, México
+  position: Research Assistant Intern
+  description: >
+    Worked with Dr. Hugo Iván Piza on parallel genetic algorithms to
+    optimize neural networks training.

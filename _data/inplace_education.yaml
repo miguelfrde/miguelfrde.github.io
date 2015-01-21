@@ -1,0 +1,36 @@
+- school: Mälardalen University
+  image: mdh.png
+  period: August 2014 - June 2015
+  location: Västerås, Sweden
+  title: Exchange studies
+  description: >
+    I'm currently studying in Sweden for one year. The courses I'm taking are:
+    Graph Theory, Quantum Computing and Information, Software Validation and
+    Verification, Artificial Intelligence, Mathematics behind the Internet,
+    Computer Graphics, Model-driven Engineering and of course, Swedish.
+
+
+- school: ITESO
+  image: iteso.png
+  period: August 2011 - May 2016 (expected)
+  location: Guadalajara, México
+  title: BSc Computer Science
+  description: >
+    I'm currently pursuing my bachelor degree. During my studies here, I've
+    participated in many perliminary ACM contests, one of which my team was
+    first, and in one regional contest. My degree was supposed to take 4.5
+    years, but since I couldn't take one course I needed during my exchange
+    period that is requirement for another course, I expect to do one more
+    semester with just one course.
+
+
+- school: Colegio Cervantes
+  image: cervantes.png
+  period: August 2008 - June 2011
+  location: Guadalajara, México
+  title: High School
+  description: >
+    During my last year, I led a group of 20 people to setup and run a cybercafe
+    for a national high school sports event (Edeprem). Developed the website
+    used for the event. The technologies I used were HTML, CSS, JavaScript and
+    PHP using Wordpress with a custom theme I developed.

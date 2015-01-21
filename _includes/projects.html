@@ -2,215 +2,27 @@
 <section id="projects" class="content-section full-page-section">
   <div class="container">
     <h2>Projects</h2>
+
     <h3>Personal projects</h3>
-    <div class="row">
-      <div class="col-md-6 project-image-container">
-        <img class="project-image" src="{{ 'friendacity.png' | prepend: site.img_path }}" alt="Friendacity">
-      </div>
-      <div class="col-md-6">
-        <p class="project-name small-title">Friendacity</p>
-        <p class="project-date"><i class="fa fa-calendar fa-fw"></i> Summer 2012</p>
-        <p>
-          I made this website with the goal of providing an easy way for Udacity
-          MOOC students to know each other. In Friendacity, Udacity students can
-          arrange meetups, find students who are similar (age, courses, country,
-          etc.) to them and establish contact with them. Developed using Python,
-          JavaScript + jQuery and deployed to Google App Engine. I have stopped
-          working on this project.
-        </p>
-        <p>
-          <a href="http://friendacity.appspot.com/">
-            <i class="fa fa-globe fa-fw"></i> Website
-          </a>
-        </p>
-      </div>
-    </div>
+    {% for project in site.data.projects.personal_projects %}
+      {% include project_with_image.html project=project %}
+    {% endfor %}
+
     <h3>University projects</h3>
-    <div class="row">
-      <div class="col-md-6 project-image-container">
-        <img class="project-image" src="{{ 'mlpnn.png' | prepend: site.img_path }}" alt="MLPNN">
-      </div>
-      <div class="col-md-6">
-        <p class="project-name small-title">Handwritten Digit Recognition</p>
-        <p class="project-date"><i class="fa fa-calendar fa-fw"></i> Spring 2013</p>
-        <p>
-          A Neural Network for recognizing digits. Simple implementation, trained
-          using a small dataset generated using the training application that you
-          can see on Github. Developed for the course Data Structures and
-          Algorithms II.
-        </p>
-        <p>
-          <a href="https://github.com/miguelfrde/MLPNN-for-handwritten-digit-recognition">
-            <i class="fa fa-github-alt fa-fw"></i> GitHub
-          </a>
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 project-image-container">
-        <img class="project-image" src="{{ 'orkoraptor.png' | prepend: site.img_path }}" alt="Orkoraptor">
-      </div>
-      <div class="col-md-6">
-        <p class="project-name small-title">Orkoraptor</p>
-        <p class="project-date"><i class="fa fa-calendar fa-fw"></i> Fall 2012</p>
-        <p>
-          Application to draw Flowcharts, run them and generate the code in Ruby,
-          Java, Python and JavaScript. It allows to save the flowchart in .orko
-          files and load those fiels via drag and drop. Written in Java.
-          Developed with Mario Leal for the university course Object Oriented
-          Programming.
-        </p>
-        <p>
-          <a href="https://dl.dropboxusercontent.com/u/17055504/Orkoraptor.jar">
-            <i class="fa fa-cloud-download fa-fw"></i> Download
-          </a>
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 project-image-container">
-        <img class="project-image" src="{{ 'imageseg.png' | prepend: site.img_path }}" alt="Image Segmentation">
-      </div>
-      <div class="col-md-6">
-        <p class="project-name small-title">Image Segmentation</p>
-        <p class="project-date"><i class="fa fa-calendar fa-fw"></i> Fall 2014</p>
-        <p>
-          Implementation of two image segmentation algorithms using Minimum
-          Spanning Forests. The application allows to try different parameters
-          to see their effects on the algorithms and compare them. Developed for
-          the course Graph Theory, Networks and Applications during my exchange
-          period at MDH.
-        </p>
-        <div class="row project-links">
-          <div class="col-md-4 project-link">
-            <a href="http://image-segmentation.herokuapp.com/">
-              <i class="fa fa-globe fa-fw"></i> Website
-            </a>
-          </div>
-          <div class="col-md-4 project-link center">
-            <a href="https://github.com/miguelfrde/image-segmentation">
-              <i class="fa fa-github-alt fa-fw"></i> GitHub
-            </a>
-          </div>
-          <div class="col-md-4 project-link right">
-            <a href="https://www.dropbox.com/s/gdtghavyyr1x7m1/report.pdf?dl=0">
-              <i class="fa fa-file-text-o fa-fw"></i> Report
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 project-image-container">
-        <img class="project-image" src="{{ 'gamie.png' | prepend: site.img_path }}" alt="Gamie">
-      </div>
-      <div class="col-md-6">
-        <p class="project-name small-title">Gamie</p>
-        <p class="project-date"><i class="fa fa-calendar fa-fw"></i> Fall 2013</p>
-        <p>
-          Application that allows teacher to setup great online courses and
-          engages students who take them, thanks to gamification concepts like
-          levels, achievements, lifes, etc. Built using Django. Developed with
-          Fernando Padilla, Jorge Barba and Iván Alejandro Rojas for the course
-          Software Design.
-        </p>
-        <p>
-          <a href="http://gamie.herokuapp.com/">
-            <i class="fa fa-globe fa-fw"></i> Website
-          </a>
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 project-image-container">
-        <img class="project-image" src="{{ 'solver.png' | prepend: site.img_path }}" alt="Rush Hour Solver">
-      </div>
-      <div class="col-md-6">
-        <p class="project-name small-title">Rush Hour Solver</p>
-        <p class="project-date"><i class="fa fa-calendar fa-fw"></i> Spring 2013</p>
-        <p>
-          Application developed to compare three search algorithms (DFS, BFS and
-          A*) for solving the puzzle RushHour (Unblock-Me). The heuristic used
-          for A* is the number of blocks in front of the main block plus one.
-          Written in Java. Developed with Jorge Barba for the course Data
-          Structures and Algorithms II.
-        </p>
-        <p>
-          <a href="https://github.com/miguelfrde/Solver">
-            <i class="fa fa-github-alt fa-fw"></i> GitHub
-          </a>
-        </p>
-      </div>
-    </div>
+    {% for project in site.data.projects.university_projects %}
+      {% include project_with_image.html project=project %}
+    {% endfor %}
+
     <h3>Other projects (personal and university)</h3>
-    <div class="row">
-      <div class="col-md-6">
-        <p class="project-name small-title">PyQuantum</p>
-        <p class="project-date"><i class="fa fa-calendar fa-fw"></i> Fall 2014</p>
-        <p>
-          Quantum computing library and Grover algorithm simulation. Developed
-          for the course Quantum Computing and Information during my
-          exchange period at MDH.
-        </p>
-        <div class="row project-links">
-          <div class="col-md-4 project-link">
-            <a href="https://github.com/miguelfrde/pyquantum">
-              <i class="fa fa-github-alt fa-fw"></i> GitHub
-            </a>
-          </div>
-          <div class="col-md-4 project-link">
-            <a href="https://www.dropbox.com/s/lse05hhthadgcur/report.pdf?dl=0">
-              <i class="fa fa-file-text-o fa-fw"></i> Report
-            </a>
-          </div>
-          <div class="col-md-4"></div>
+    {% for project in site.data.projects.other_projects %}
+      {% assign imod = forloop.index | modulo:2 %}
+      {% if imod == 1 %}
+        <div class="row">
+      {% endif %}
+      {% include project_without_image.html project=project %}
+      {% if imod == 0 %}
         </div>
-      </div>
-      <div class="col-md-6">
-        <p class="project-name small-title">Sodascript</p>
-        <p class="project-date"><i class="fa fa-calendar fa-fw"></i> Spring 2014</p>
-        <p>
-          Simple compiler for a simple language that compiles to JavaScript.
-          Developed in Ruby with Juanjo De Anda and Fernando Padilla for the
-          course Compilers.
-        </p>
-        <p>
-          <a href="https://github.com/miguelfrde/sodascript">
-            <i class="fa fa-github-alt fa-fw"></i> GitHub
-          </a>
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <p class="project-name small-title">OpenAutomata</p>
-        <p class="project-date"><i class="fa fa-calendar fa-fw"></i> Fall 2013</p>
-        <p>
-          Small automata theory library part of a project for the course
-          Automata Theory. The library includes regular expressions, deterministic and non deterministic finite automata and context-free grammars.
-          Developed with Jorge Barba.
-        </p>
-        <p>
-          <a href="https://github.com/miguelfrde/openautomata">
-            <i class="fa fa-github-alt fa-fw"></i> GitHub
-          </a>
-        </p>
-      </div>
-      <div class="col-md-6">
-        <p class="project-name small-title">MicroTweetPi</p>
-        <p class="project-date"><i class="fa fa-calendar fa-fw"></i> Fall 2013</p>
-        <p>
-          System to tweet from a 8052 microcontroller (we used an AT89C52) via a
-          Raspberry Pi. The code running on the 8052 was written in Assembly and
-          the code running on the Raspberry Pi was written in Python. Developed
-          with Jorge Barba and Mario Leal as a final project for the course Microprocessor Foundations.
-        </p>
-        <p>
-          <a href="https://www.youtube.com/watch?v=gM0OElgYgY0">
-            <i class="fa fa-video-camera fa-fw"></i> Video
-          </a>
-        </p>
-      </div>
-    </div>
+      {% endif %}
+    {% endfor %}
   </div>
 </section>
