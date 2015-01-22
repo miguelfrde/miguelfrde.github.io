@@ -4,7 +4,7 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{{ site.data.about.description }}">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,400' rel='stylesheet' type='text/css'>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">

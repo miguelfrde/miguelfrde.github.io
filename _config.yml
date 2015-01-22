@@ -1,6 +1,4 @@
 # Site settings
-title: Miguel Flores
-subtitle: miguelfrde
 baseurl: ""
 url: "http://miguelfrde.com"
 css_path: "/static/css/"
