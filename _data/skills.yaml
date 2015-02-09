@@ -29,6 +29,8 @@
       rank: 3
     - name: LaTeX
       rank: 3
+    - name: Prolog
+      rank: 3
     - name: Standard ML
       rank: 2
     - name: C++
