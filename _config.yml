@@ -4,6 +4,7 @@ url: "http://miguelfrde.com"
 css_path: "/static/css/"
 js_path: "/static/js/"
 img_path: "/static/img/"
+title: "Miguel Flores Ruiz de Eguino (miguelfrde)"
 
 # Build settings
 markdown: kramdown
