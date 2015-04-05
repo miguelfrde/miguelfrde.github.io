@@ -83,6 +83,31 @@ university_projects:
       url: https://github.com/miguelfrde/Solver
 
 other_projects:
+  - name: Community Detection
+    period: Spring 2015
+    description: >
+      Descrioption and implementation of three community detection algorithms:
+      Girvan-Newman, Markov Clustering and Community Detection via Simulated
+      Annealing. Done with Gina Ardavičiūtė as final project for the course
+      Mathematics Behind Internet during my exchange period at MDH.
+    link1:
+      type: github
+      url: https://github.com/miguelfrde/community-detection
+    link2:
+      type: report
+      url: https://www.dropbox.com/s/jpd9r0zvs47ysd5/report.pdf?dl=0
+
+  - name: Genetics
+    period: Spring 2015
+    description: >
+      Implementation of a general genetic algorithm with examples for optimizing
+      the travelling salesman problem and for training a feedforward multilayer
+      perceptron neural network. Done as part of some assignments and project
+      for the course Artificial Intelligence during my exchange period at MDH.
+    link1:
+      type: github
+      url: https://github.com/miguelfrde/genetics
+
   - name: PyQuantum
     period: Fall 2014
     description: >
