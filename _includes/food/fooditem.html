@@ -2,8 +2,8 @@
 
 {% capture foodimgpath %}{{ site.img_path }}food/{% endcapture %}
 {% if include.food.picture %}
-  <img src="{{ include.food.picture | prepend: foodimgpath }}"
-    alt="{{ include.food.name }}" class="food-image">
+  <img data-original="{{ include.food.picture | prepend: foodimgpath }}"
+    alt="{{ include.food.name }}" class="food-image lazy">
 {% endif %}
 <p class="food-description">
   {{ include.food.description }}

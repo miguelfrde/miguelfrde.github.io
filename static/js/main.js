@@ -23,5 +23,7 @@ $(document).ready(function() {
     return false;
   });
 
+  $('img.lazy').lazyload();
+
   $('#year').text(new Date().getFullYear());
 });
