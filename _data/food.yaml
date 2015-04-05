@@ -19,7 +19,7 @@
     - name: Tortilla de patata
       picture: tortilla.jpg
       description: >
-        Traditional spanish tortilla. It can contain onion, chorizo or green
+        Traditional spanish tortilla. It can have onion, chorizo or green
         paprika inside.
 
     - name: Mozzarella in carrozza
@@ -141,9 +141,9 @@
         Pasta with tomato sauce, bacon, pecorino cheese, black pepper,
         parmigiano cheese and optional onion.
 
-    - name: Pasta con chorizo
+    - name: Pasta with chorizo
       description: >
-        Spanish typical pasta with tomato sauce and chorizo.
+        Pasta with tomato sauce and chorizo.
 
 - category: Salad
   dishes:
