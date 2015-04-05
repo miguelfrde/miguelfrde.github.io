@@ -13,7 +13,7 @@
           <i class="fa fa-lg fa-map-marker fa-fw"></i> {{ site.data.about.location }}
         </p>
         <p id="description">
-          {{ site.data.about.description }}
+          {{ site.data.about.description | markdownify }}
         </p>
       </div>
     </div>

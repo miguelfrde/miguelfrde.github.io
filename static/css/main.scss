@@ -55,6 +55,11 @@ body {
   font-weight: bold;
 }
 
+.small-text {
+  font-size: 0.9rem;
+  color: $light-gray;
+}
+
 .bg-dark {
   background-color: $darker-gray;
 }
@@ -395,4 +400,38 @@ footer {
 
 .tatras-division {
   background: url(../img/tatras.jpg) no-repeat center fixed;
+}
+
+.boat-division {
+  background: url(../img/boat.jpg) no-repeat center fixed;
+}
+
+.vasterasmist-division {
+  background: url(../img/vasterasmist.jpg) no-repeat center fixed;
+}
+
+.portugalete-division {
+  background: url(../img/portugalete.jpg) no-repeat center fixed;
+}
+
+.uppsala-division {
+  background: url(../img/uppsala.jpg) no-repeat center fixed;
+}
+
+.budapest-division {
+  background: url(../img/budapest.jpg) no-repeat center fixed;
+}
+
+/* Food page */
+
+.food-image {
+  width: 75%;
+}
+
+h3.food-title {
+  margin-bottom: 2rem !important;
+}
+
+.food-description {
+  margin: 1rem 0;
 }

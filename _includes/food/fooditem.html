@@ -1,0 +1,10 @@
+<h3 class="food-title">{{ include.food.name }}</h3>
+
+{% capture foodimgpath %}{{ site.img_path }}food/{% endcapture %}
+{% if include.food.picture %}
+  <img src="{{ include.food.picture | prepend: foodimgpath }}"
+    alt="{{ include.food.name }}" class="food-image">
+{% endif %}
+<p class="food-description">
+  {{ include.food.description }}
+</p>

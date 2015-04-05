@@ -1,0 +1,188 @@
+- category: Appetizers
+  dishes:
+    - name: Croquetas
+      picture: croquetas.jpg
+      description: Traditional spanish croquetas made with serrano ham.
+
+    - name: Guacamole
+      picture: guacamole.jpg
+      description: >
+        Traditional mexican guacamole with tomato, garlic, milk, lemon and lime
+        juice, onion and coriander.
+
+    - name: Pintxo de morcilla
+      picture: pintxomorcilla.jpg
+      description: >
+        Basque "pintxo" of morcilla (bloodsausage) with goat chesse and fried
+        onion on top.
+
+    - name: Tortilla de patata
+      picture: tortilla.jpg
+      description: >
+        Traditional spanish tortilla. It can contain onion, chorizo or green
+        paprika inside.
+
+    - name: Mozzarella in carrozza
+      description: Mozzarella covered by bread and fried.
+
+- category: Soup
+  dishes:
+    - name: Beans soup
+      picture: beanssoup.jpg
+      description: Beans soup with red paprika, garlic, onion and chorizo.
+
+    - name: Lentils soup
+      picture: lentilsoup.jpg
+      description: >
+        Lentils soup with red paprika, green paprika, potatos onion, garlic,
+        carrot and chorizo.
+
+    - name: Patatas a la riojana
+      description: >
+        Traditional soup from La Rioja in Spain made with potatoes, onion,
+        garlic, red paprika, italian green pepper and chorizo.
+
+- category: Main
+  dishes:
+    - name: Melanzane alla parmigiana
+      picture: melanzaneallaparmigiana.jpg
+      description: >
+        Baked melanzane layers separated by mozzarella, parmigiano cheese and a
+        sauce made of carrot, tomato, black pepper, onion, garlic and optional
+        meat.
+
+    - name: Baked chicken
+      picture: bakedchicken.jpg
+      description: >
+        Chicken leg baked with potatos and condimented with rosemary spice,
+        garlic, lemon and black pepper.
+
+    - name: Meatballs
+      picture: meatballs.jpg
+      description: >
+        Meatballs with parsley, black pepper, fried onion and garlic poweder
+        inside with tomato sauce and fried potatoes.
+
+    - name: Hamburger
+      picture: burger.jpg
+      description: >
+        Hamburger with bacon, cheese, fried onion, fried egg, french fries,
+        mustard, ketchup and mayonnaise.
+
+    - name: Salmon with tomato sauce
+      picture: salmontomato.jpg
+      description: The name says everything.
+
+    - name: Salmon
+      description: >
+        Baked salmon and potatoes with lemon, rosemary spice, garlic and a
+        little bit of black pepper.
+
+    - name: Breaded chicken
+      description: >
+        Breaded chicken with french fries.
+
+    - name: Lečo
+      description: >
+        Slovakian dish made of eggs, red paprika, green paprika, sausage,
+        pepper, garlic and onion.
+
+- category: Pasta
+  dishes:
+    - name: Spaghetti aglio, olio e peperoncino
+      picture: pastaaglio.jpg
+      description: >
+        Spaghetti with garlic, olive oil, chili and parmigiano cheese.
+
+    - name: Pasta zucchine
+      picture: pastazucchini.jpg
+      description: >
+        Pasta with zucchini, philadelphia cheese, parmigiano, black pepper (or
+        chili), onion and bacon.
+
+    - name: Spaghetti alla bolognese
+      picture: pastabolognesa.jpg
+      description: >
+        Spaghetti with grounded meat, tomato sauce, carrot, onion, garlic, black
+        pepper, oregano and parmigiano cheese.
+
+    - name: Pasta al forno
+      picture: pastaalforno.jpg
+      description: >
+        Baked pasta with grounded meat, tomato sauce, carrot, onion, garlic,
+        black pepper, mozzarella and parmigiano cheese.
+
+    - name: Spaghetti alla carbonara
+      description: >
+        Spaghetti with carobara sauce which is made of eggs, pecorino cheese,
+        black pepper, bacon, parmigiano cheese and optional onion.
+
+    - name: Spaghetti cacio e pepe
+      description: >
+        Spaghetti with olive oil, pepper, pecorino and parmigiano cheese.
+
+    - name: Pasta broccoli
+      description: >
+        Pasta with a sauce made of broccoli, onion, red chili pepper or black
+        pepper, cheese, bacon and parmigiano cheese.
+
+    - name: Pasta melanzane
+      description: >
+        Pasta with eggplant, carrot, onion, red chili pepper or black pepper,
+        philadelphia, bacon and parmigiano cheese.
+
+    - name: Pasta melanzane e pomodoro
+      description: >
+        Pasta with eggplant, tomato sauce, carrot, onion, red chili pepper or
+        black pepper, bacon and parmigiano cheese.
+
+    - name: Pasta amatriciana
+      description: >
+        Pasta with tomato sauce, bacon, pecorino cheese, black pepper,
+        parmigiano cheese and optional onion.
+
+    - name: Pasta con chorizo
+      description: >
+        Spanish typical pasta with tomato sauce and chorizo.
+
+- category: Salad
+  dishes:
+    - name: Russian salad
+      picture: russiansalad.jpg
+      description: >
+        Russian salad made with boiled potatoes, boiled eggs, boiled carrots,
+        mayonnaise and tuna.
+
+    - name: Spinach salad
+      picture: spinachsalad.jpg
+      description: >
+        Spinach leaves with greek cheese or goat cheese, olive oil, balsamic
+        vinegar and optional strawberries and nuts.
+
+- category: Breakfast
+  dishes:
+    - name: Chilaquiles
+      picture: chilaquiles.jpg
+      description: Traditional mexican chilaquiles with cream, cheese and beans.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
