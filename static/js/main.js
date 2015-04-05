@@ -22,4 +22,6 @@ $(document).ready(function() {
 
     return false;
   });
+
+  $('#year').text(new Date().getFullYear());
 });
