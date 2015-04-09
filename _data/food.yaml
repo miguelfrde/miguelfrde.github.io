@@ -34,7 +34,7 @@
     - name: Lentils soup
       picture: lentilsoup.jpg
       description: >
-        Lentils soup with red paprika, green paprika, potatos onion, garlic,
+        Lentils soup with red paprika, green paprika, potatos, onion, garlic,
         carrot and chorizo.
 
     - name: Patatas a la riojana
@@ -49,7 +49,7 @@
       description: >
         Baked melanzane layers separated by mozzarella, parmigiano cheese and a
         sauce made of carrot, tomato, black pepper, onion, garlic and optional
-        meat.
+        ground meat.
 
     - name: Baked chicken
       picture: bakedchicken.jpg
@@ -60,7 +60,7 @@
     - name: Meatballs
       picture: meatballs.jpg
       description: >
-        Meatballs with parsley, black pepper, fried onion and garlic poweder
+        Meatballs with parsley, black pepper, fried onion and garlic powder
         inside with tomato sauce and fried potatoes.
 
     - name: Hamburger
@@ -103,18 +103,18 @@
     - name: Spaghetti alla bolognese
       picture: pastabolognesa.jpg
       description: >
-        Spaghetti with grounded meat, tomato sauce, carrot, onion, garlic, black
+        Spaghetti with ground meat, tomato sauce, carrot, onion, garlic, black
         pepper, oregano and parmigiano cheese.
 
     - name: Pasta al forno
       picture: pastaalforno.jpg
       description: >
-        Baked pasta with grounded meat, tomato sauce, carrot, onion, garlic,
+        Baked pasta with ground meat, tomato sauce, carrot, onion, garlic,
         black pepper, mozzarella and parmigiano cheese.
 
     - name: Spaghetti alla carbonara
       description: >
-        Spaghetti with carobara sauce which is made of eggs, pecorino cheese,
+        Spaghetti with carbonara sauce which is made of eggs, pecorino cheese,
         black pepper, bacon, parmigiano cheese and optional onion.
 
     - name: Spaghetti cacio e pepe
@@ -123,8 +123,8 @@
 
     - name: Pasta broccoli
       description: >
-        Pasta with a sauce made of broccoli, onion, red chili pepper or black
-        pepper, cheese, bacon and parmigiano cheese.
+        Pasta with a sauce made of broccoli, onion, red chili pepper, cheese,
+        bacon and parmigiano cheese.
 
     - name: Pasta melanzane
       description: >
@@ -150,8 +150,7 @@
     - name: Russian salad
       picture: russiansalad.jpg
       description: >
-        Russian salad made with boiled potatoes, boiled eggs, boiled carrots,
-        mayonnaise and tuna.
+        Boiled potatoes, boiled eggs, boiled carrots, mayonnaise and tuna.
 
     - name: Spinach salad
       picture: spinachsalad.jpg
@@ -164,25 +163,3 @@
     - name: Chilaquiles
       picture: chilaquiles.jpg
       description: Traditional mexican chilaquiles with cream, cheese and beans.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
