@@ -82,6 +82,11 @@
       description: >
         Breaded chicken with french fries.
 
+    - name: Chicken cubes with lemon
+      description: >
+        Chicken cubes fried on olive oil with lemon and flour, served with
+        potatoes.
+
     - name: Rice with chicken curry
       description: >
           rice with carrot, red paprika, green paprika, black pepper, onion,
@@ -118,6 +123,7 @@
         black pepper, mozzarella and parmigiano cheese.
 
     - name: Spaghetti alla carbonara
+      picture: pastacarbonara.jpg
       description: >
         Spaghetti with carbonara sauce which is made of eggs, pecorino cheese,
         black pepper, bacon, parmigiano cheese and optional onion.
