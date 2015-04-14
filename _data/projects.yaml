@@ -86,7 +86,7 @@ other_projects:
   - name: Community Detection
     period: Spring 2015
     description: >
-      Descrioption and implementation of three community detection algorithms:
+      Description and implementation of three community detection algorithms:
       Girvan-Newman, Markov Clustering and Community Detection via Simulated
       Annealing. Done with Gina Ardavičiūtė as final project for the course
       Mathematics Behind Internet during my exchange period at MDH.
