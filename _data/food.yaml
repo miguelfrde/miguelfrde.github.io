@@ -131,6 +131,7 @@
         black pepper, bacon, parmigiano cheese and optional onion.
 
     - name: Spaghetti cacio e pepe
+      picture: pastacacioepepe.jpg
       description: >
         Spaghetti with olive oil, pepper, pecorino and parmigiano cheese.
 
@@ -150,6 +151,7 @@
         black pepper, bacon and parmigiano cheese.
 
     - name: Spaghetti all'amatriciana
+      picture: pastaamatriciana.jpg
       description: >
         Spaghetti with a sauce made of tomatos, bacon, pecorino cheese, black
         pepper, optional onion and with parmigiano cheese.
