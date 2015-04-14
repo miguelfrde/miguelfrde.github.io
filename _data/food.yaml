@@ -79,8 +79,10 @@
         little bit of black pepper.
 
     - name: Breaded chicken
+      picture: breadedchicken.jpg
       description: >
-        Breaded chicken with french fries.
+        Breaded chicken with garlic powder and black pepper, served with
+        french fries.
 
     - name: Chicken cubes with lemon
       description: >
@@ -147,10 +149,10 @@
         Pasta with eggplant, tomato sauce, carrot, onion, red chili pepper or
         black pepper, bacon and parmigiano cheese.
 
-    - name: Pasta amatriciana
+    - name: Spaghetti all'amatriciana
       description: >
-        Pasta with tomato sauce, bacon, pecorino cheese, black pepper,
-        parmigiano cheese and optional onion.
+        Spaghetti with a sauce made of tomatos, bacon, pecorino cheese, black
+        pepper, optional onion and with parmigiano cheese.
 
     - name: Pasta with chorizo
       description: >
