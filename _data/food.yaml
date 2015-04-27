@@ -136,10 +136,11 @@
       description: >
         Spaghetti with olive oil, pepper, pecorino and parmigiano cheese.
 
-    - name: Pasta broccoli
+    - name: Penne all'arrabbiata
+      picture: pastaarrabbiata.jpg
       description: >
-        Pasta with a sauce made of broccoli, onion, red chili pepper, cheese,
-        bacon and parmigiano cheese.
+        Penne with a sauce made of olive oil, tomatoes, red chili pepper
+        black pepper, parsley, garlic and onion.
 
     - name: Pasta melanzane
       description: >
