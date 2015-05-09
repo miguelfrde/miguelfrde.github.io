@@ -26,6 +26,13 @@
       picture: mozzarellaincarrozza.jpg
       description: Mozzarella covered by bread and fried.
 
+    - name: Supplì
+      picture: suppli.jpg
+      description: >
+        Fried risotto balls with breadcrumbs around and mozzarella inside.
+        The risotto was cooked with tomato, parmigiano, onion, garlic, carrot,
+        mozzarella and black pepper.
+ 
 - category: Soups
   dishes:
     - name: Beans soup
@@ -93,7 +100,7 @@
 
     - name: Rice with chicken curry
       description: >
-          rice with carrot, red paprika, green paprika, black pepper, onion,
+          Rice with carrot, red paprika, green paprika, black pepper, onion,
           garlic, coriander and chicken with curry.
         
     - name: Lečo
@@ -131,6 +138,13 @@
       description: >
         Spaghetti with carbonara sauce which is made of eggs, pecorino cheese,
         black pepper, bacon, parmigiano cheese and optional onion.
+
+    - name: Pasta gorgonzola e noci
+      picture: pastagorgonzolanoci.jpg
+      description: >
+        Pasta with a sauce made with gorgonzola, walnuts, onion, black pepper
+        and optional speck.
+
 
     - name: Spaghetti cacio e pepe
       picture: pastacacioepepe.jpg
