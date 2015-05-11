@@ -94,9 +94,11 @@
         french fries.
 
     - name: Chicken cubes with lemon
+      picture: chickenlemon.jpg
       description: >
-        Chicken cubes fried on olive oil with lemon and flour, served with
-        potatoes.
+        Chicken cubes fried on olive oil with lemon, flour, black pepper and
+        garlic powder, served with potatoes fried with rosemary and black
+        pepper.
 
     - name: Rice with chicken curry
       description: >
