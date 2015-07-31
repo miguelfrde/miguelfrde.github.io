@@ -1,4 +1,21 @@
 personal_projects:
+  - name: Room Control
+    image: roomcontrol.png
+    period: Summer 2015
+    description: >
+      Application to control the lights of a room, play music, set up alarms
+      and other things. The app was built with ionic and it connects to a
+      Raspberry Pi running a microservices application built with nameko.
+      Work in progress.
+    link1:
+      type: github
+      url: https://github.com/miguelfrde/roomcontrol
+      text: Mobile app
+    link2:
+      type: github
+      url: https://github.com/miguelfrde/roomcontrol_backend
+      text: Backend
+
   - name: Friendacity
     image: friendacity.png
     period: Fall 2012
