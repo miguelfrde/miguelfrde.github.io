@@ -7,7 +7,7 @@ title: Miguel Flores > Food
 
 {% for category in site.data.food %}
   {% capture bg %}{% cycle '', 'bg-yellow' %}{% endcapture %}
-  {% capture divider %}{% cycle 'vasterasmist', 'portugalete', 'boat', 'uppsala', 'budapest', '' %}{% endcapture %}
+  {% capture divider %}{% cycle 'vasterasmist', 'trakai', 'boat', 'portugalete', 'budapest', '' %}{% endcapture %}
   {% include food/category.html sectionbg=bg %}
   {% if divider != '' %}
     <div class="dividing-image {{ divider }}-division"></div>
