@@ -1,4 +1,6 @@
 miguelfrde.github.io
 ====================
 
-My GitHub website.
+My personal website.
+
+http://www.miguelfrde.com/
