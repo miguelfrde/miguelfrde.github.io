@@ -32,7 +32,7 @@
         Fried risotto balls with breadcrumbs around and mozzarella inside.
         The risotto was cooked with tomato, parmigiano, onion, garlic, carrot,
         mozzarella and black pepper.
- 
+
 - category: Soups
   dishes:
     - name: Beans soup
@@ -104,11 +104,6 @@
       description: >
           Rice with carrot, red paprika, green paprika, black pepper, onion,
           garlic, coriander and chicken with curry.
-        
-    - name: Lečo
-      description: >
-        Slovakian dish made of eggs, red paprika, green paprika, sausage,
-        pepper, garlic and onion.
 
 - category: Pasta
   dishes:
@@ -181,6 +176,11 @@
       picture: pastachorizo.jpg
       description: >
         Pasta with tomato sauce and chorizo.
+
+    - name: Lasagna
+      description: >
+        Typical lasagne with ragu sauce, bechamel, mozzarella and parmigiano
+        cheese.
 
 - category: Salad
   dishes:
