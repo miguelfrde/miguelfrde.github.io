@@ -5,7 +5,8 @@
 @import "typography";
 @import "medium-icon";
 
-@mixin background-size-cover() {
+@mixin division($image_url) {
+  background: url($image_url) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -15,7 +16,6 @@
 $screen-large: 1200px;
 $screen-medium: 992px;
 $screen-small: 768px;
-
 
 html,
 body {
@@ -87,8 +87,7 @@ body {
   width: 100%;
   height: 100%;
   color: white;
-  background: url(../img/bg.jpg) no-repeat center fixed;
-  @include background-size-cover();
+  @include division("../img/bg.jpg");
 
   /* for background-size:cover replacement on iOS devices */
   @media only screen and (orientation: portrait) and (device-width: 320px),
@@ -396,48 +395,39 @@ footer {
 }
 
 .stockholm-division {
-  background: url(../img/stockholm.jpg) no-repeat center fixed;
-  @include background-size-cover();
+  @include division("../img/stockholm.jpg")
 }
 
 .vasteras-division {
-  background: url(../img/vasteras.jpg) no-repeat center fixed;
-  @include background-size-cover();
+  @include division("../img/vasteras.jpg");
 }
 
 .tatras-division {
-  background: url(../img/tatras.jpg) no-repeat center fixed;
-  @include background-size-cover();
+  @include division("../img/tatras.jpg");
 }
 
 .boat-division {
-  background: url(../img/boat.jpg) no-repeat center fixed;
-  @include background-size-cover();
+  @include division("../img/boat.jpg");
 }
 
 .vasterasmist-division {
-  background: url(../img/vasterasmist.jpg) no-repeat center fixed;
-  @include background-size-cover();
+  @include division("../img/vasterasmist.jpg");
 }
 
 .portugalete-division {
-  background: url(../img/portugalete.jpg) no-repeat center fixed;
-  @include background-size-cover();
+  @include division("../img/portugalete.jpg");
 }
 
 .uppsala-division {
-  background: url(../img/uppsala.jpg) no-repeat center fixed;
-  @include background-size-cover();
+  @include division("../img/uppsala.jpg");
 }
 
 .budapest-division {
-  background: url(../img/budapest.jpg) no-repeat center fixed;
-  @include background-size-cover();
+  @include division("../img/budapest.jpg");
 }
 
 .trakai-division {
-  background: url(../img/trakai.jpg) no-repeat center fixed;
-  @include background-size-cover();
+  @include division("../img/trakai.jpg");
 }
 
 /* Food page */
