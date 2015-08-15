@@ -5,6 +5,13 @@
 @import "typography";
 @import "medium-icon";
 
+@mixin background-size-cover() {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 $screen-large: 1200px;
 $screen-medium: 992px;
 $screen-small: 768px;
@@ -81,10 +88,7 @@ body {
   height: 100%;
   color: white;
   background: url(../img/bg.jpg) no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  @include background-size-cover();
 
   /* for background-size:cover replacement on iOS devices */
   @media only screen and (orientation: portrait) and (device-width: 320px),
@@ -385,6 +389,7 @@ footer {
 /* Dividing image sections */
 .dividing-image {
   height: 50%;
+  width: 100%;
   @media screen and (max-width: $screen-medium) {
     display: none;
   }
@@ -392,38 +397,47 @@ footer {
 
 .stockholm-division {
   background: url(../img/stockholm.jpg) no-repeat center fixed;
+  @include background-size-cover();
 }
 
 .vasteras-division {
   background: url(../img/vasteras.jpg) no-repeat center fixed;
+  @include background-size-cover();
 }
 
 .tatras-division {
   background: url(../img/tatras.jpg) no-repeat center fixed;
+  @include background-size-cover();
 }
 
 .boat-division {
   background: url(../img/boat.jpg) no-repeat center fixed;
+  @include background-size-cover();
 }
 
 .vasterasmist-division {
   background: url(../img/vasterasmist.jpg) no-repeat center fixed;
+  @include background-size-cover();
 }
 
 .portugalete-division {
   background: url(../img/portugalete.jpg) no-repeat center fixed;
+  @include background-size-cover();
 }
 
 .uppsala-division {
   background: url(../img/uppsala.jpg) no-repeat center fixed;
+  @include background-size-cover();
 }
 
 .budapest-division {
   background: url(../img/budapest.jpg) no-repeat center fixed;
+  @include background-size-cover();
 }
 
 .trakai-division {
   background: url(../img/trakai.jpg) no-repeat center fixed;
+  @include background-size-cover();
 }
 
 /* Food page */
