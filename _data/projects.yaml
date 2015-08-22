@@ -18,7 +18,7 @@ personal_projects:
 
   - name: Friendacity
     image: friendacity.png
-    period: Fall 2012
+    period: Summer 2012
     description: >
       I made this website with the goal of providing an easy way for Udacity
       MOOC students to know each other. In Friendacity, Udacity students can
