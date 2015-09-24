@@ -413,6 +413,8 @@ footer {
 .dividing-image {
   height: 50%;
   width: 100%;
+  box-shadow: inset 0px 24px 24px -24px rgba(51,51,51,0.75),
+              inset 0px -24px 24px -24px rgba(51,51,51,0.75);
   @media screen and (max-width: $screen-medium) {
     display: none;
   }
