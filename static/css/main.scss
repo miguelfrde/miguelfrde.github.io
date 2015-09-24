@@ -46,7 +46,7 @@ a:visited,
 a:hover,
 a {
   text-decoration: none !important;
-  color: $dark-orange;
+  color: $color-hightlight;
 }
 
 a {
@@ -54,7 +54,7 @@ a {
 }
 
 a:hover {
-  color: $light-orange;
+  color: $color-active;
 }
 
 body {
@@ -91,7 +91,7 @@ body {
 }
 
 .bg-yellow {
-  background-color: $light-yellow;
+  background-color: $color-bg-alternate;
 }
 
 /* Header */
@@ -150,7 +150,7 @@ body {
   }
 
   a:hover {
-    color: $light-orange !important;
+    color: $color-active !important;
   }
 
   a {
@@ -195,11 +195,11 @@ body {
   box-shadow: 0px 8px 6px -5px rgba(100,100,100,0.1);
 
   .navbar-brand {
-    color: $dark-orange;
+    color: $color-hightlight;
   }
 
   .navbar-brand:hover {
-    color: $dark-orange;
+    color: $color-hightlight;
   }
 
   .navbar-collapse {
@@ -214,7 +214,7 @@ body {
   .nav li.active a:hover,
   .nav li.active a:hover {
     background: none;
-    color: $dark-orange;
+    color: $color-hightlight;
   }
 }
 
@@ -242,7 +242,7 @@ section {
 
     h3 {
       margin: 50px 0;
-      color: $dark-orange;
+      color: $color-hightlight;
     }
 
     @media screen and (min-width: $screen-large) {
@@ -254,7 +254,7 @@ section {
 h2 {
   text-align: center;
   font-size: 3rem;
-  color: $dark-orange;
+  color: $color-hightlight;
 }
 
 /* Section about */
@@ -329,7 +329,7 @@ ul.skill-list li span.skill-rank {
 }
 
 ul.skill-list li span.skill-rank .filled {
-  color: $dark-orange;
+  color: $color-hightlight;
 }
 
 /* Section Projects */
@@ -380,7 +380,7 @@ section#contact {
   }
 
   a:hover {
-    color: $light-orange;
+    color: $color-active;
   }
 }
 
