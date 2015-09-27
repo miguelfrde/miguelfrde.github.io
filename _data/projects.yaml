@@ -1,7 +1,22 @@
 personal_projects:
+  - name: Chromecaster
+    image: chromecaster.png
+    period: Fall 2015
+    description: >
+      Application that allows to view local videos and photos on the TV
+      using Google Chromecast. Developed with Electron, React and Redux.
+      Work in progress.
+    link1:
+      type: website
+      url: http://www.miguelfrde.com/chromecaster
+      text: Website
+    link2:
+      type: github
+      url: https://github.com/miguelfrde/chromecaster
+
   - name: Room Control
     image: roomcontrol.png
-    period: Summer 2015
+    period: Summer 2015 - present
     description: >
       Application to control the lights of a room, play music, set up alarms
       and other things. The app was built with ionic and it connects to a
