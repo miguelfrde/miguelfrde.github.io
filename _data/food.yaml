@@ -199,3 +199,9 @@
     - name: Chilaquiles
       picture: chilaquiles.jpg
       description: Traditional mexican chilaquiles with cream, cheese and beans.
+
+    - name: Scrambled eggs with zucchini
+      picture: eggszucchini.jpg
+      description: >
+        Scrambled eggs with zucchini, onion, bacon (or some sausage) and
+        mozzarella.
