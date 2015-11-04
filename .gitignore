@@ -1,8 +1,9 @@
 # Mac
 .DS_Store
 
-# GitHub Pages
+# GitHub Pages and Jekyll
 _site/
+.jekyll-metadata
 
 # Sass
 .sass-cache/

@@ -46,7 +46,7 @@ a:visited,
 a:hover,
 a {
   text-decoration: none !important;
-  color: $color-hightlight;
+  color: $color-highlight;
 }
 
 a {
@@ -195,11 +195,11 @@ body {
   box-shadow: 0px 8px 6px -5px rgba(100,100,100,0.1);
 
   .navbar-brand {
-    color: $color-hightlight;
+    color: $color-highlight;
   }
 
   .navbar-brand:hover {
-    color: $color-hightlight;
+    color: $color-highlight;
   }
 
   .navbar-collapse {
@@ -214,7 +214,7 @@ body {
   .nav li.active a:hover,
   .nav li.active a:hover {
     background: none;
-    color: $color-hightlight;
+    color: $color-highlight;
   }
 }
 
@@ -242,7 +242,7 @@ section {
 
     h3 {
       margin: 50px 0;
-      color: $color-hightlight;
+      color: $color-highlight;
     }
 
     @media screen and (min-width: $screen-large) {
@@ -254,7 +254,7 @@ section {
 h2 {
   text-align: center;
   font-size: 3rem;
-  color: $color-hightlight;
+  color: $color-highlight;
 }
 
 /* Section about */
@@ -329,7 +329,7 @@ ul.skill-list li span.skill-rank {
 }
 
 ul.skill-list li span.skill-rank .filled {
-  color: $color-hightlight;
+  color: $color-highlight;
 }
 
 /* Section Projects */
