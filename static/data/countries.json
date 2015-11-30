@@ -1,0 +1,48 @@
+{
+  "lived": [{
+      "code": "MEX",
+      "country": "Mexico"
+    }, {
+      "code": "SWE",
+      "country": "Sweden"
+    }
+  ],
+  "visited": [{
+      "code": "DNK",
+      "country": "Denmark"
+    }, {
+      "code": "ESP",
+      "country": "Spain"
+    }, {
+      "code": "EST",
+      "country": "Estonia"
+    }, {
+      "code": "FIN",
+      "country": "Finland"
+    }, {
+      "code": "HUN",
+      "country": "Hungary"
+    }, {
+      "code": "ITA",
+      "country": "Italy"
+    }, {
+      "code": "LVA",
+      "country": "Latvia"
+    }, {
+      "code": "LTU",
+      "country": "Lithuania"
+    }, {
+      "code": "NOR",
+      "country": "Norway"
+    }, {
+      "code": "POL",
+      "country": "Poland"
+    }, {
+      "code": "SVK",
+      "country": "Slovakia"
+    }, {
+      "code": "USA",
+      "country": "United States of America"
+    }
+  ]
+}

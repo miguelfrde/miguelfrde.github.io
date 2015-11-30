@@ -426,6 +426,10 @@ footer {
   }
 }
 
+.hardangerfjord-division {
+  @include division("../img/hardangerfjord.jpg");
+}
+
 .stockholm-division {
   @include division("../img/stockholm.jpg")
 }
