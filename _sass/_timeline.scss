@@ -7,7 +7,7 @@
 	}
 
 	&::before {
-		/* this is the vertical line */
+		/* vertical line */
 		content: '';
 		position: absolute;
 		top: 0;
@@ -63,50 +63,21 @@
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	box-shadow: 0 0 0 4px white, 0 0 0 5px rgba(#000, .05), inset 0 2px 0 rgba(#000, .08), 0 3px 0 4px rgba(#000, .05) ;
+	box-shadow: 0 0 0 4px white, 0 0 0 5px rgba(#000, .05), 0 3px 0 4px rgba(#000, .05) ;
 
 	img {
 		display: block;
 		position: relative;
     max-width: 100%;
     border-radius: 50%;
-	}
+  }
 
 	@media only screen and (min-width: $screen-large) {
 		width: 60px;
 		height: 60px;
 		left: calc(50% - 30px);
-
-		/* Force Hardware Acceleration in WebKit */
-		-webkit-transform: translateZ(0);
-		-webkit-backface-visibility: hidden;
-
-		.cssanimations &.is-hidden {
-			visibility: hidden;
-		}
-
-		.cssanimations &.bounce-in {
-			visibility: visible;
-			/*@include animation(cd-bounce-1 .6s);*/
-		}
 	}
 }
-
-/*@include keyframes(cd-bounce-1) {
-	0% {
-		opacity: 0;
-		@include transform(scale(.5));
-	}
-
-	60% {
-		opacity: 1;
-		@include transform(scale(1.2));
-	}
-
-	100% {
-		@include transform(scale(1));
-	}
-}*/
 
 .timeline-content {
   text-align: left;
@@ -122,10 +93,6 @@
     text-align: left;
     margin: 0;
 		color: $dark-gray;
-	}
-
-	p, .timeline-date {
-    /* font size */
 	}
 
 	.timeline-date {
@@ -171,14 +138,6 @@
 	@media only screen and (min-width: $screen-medium) {
 		h2 {
       font-size: 1.25rem;
-      /* font size */
-		}
-
-		p {
-      /* font size */
-		}
-
-		.timeline-date {
 		}
 	}
 
@@ -193,7 +152,7 @@
 			border-color: transparent;
 			border-left-color: white;
 		}
-		
+
 		&::after {
 			top: 23px;
 			left: 100%;
@@ -206,7 +165,6 @@
 			width: 100%;
 			left: 122%;
 			top: 6px;
-      /* font size */
 		}
 
 		.timeline-block:nth-child(even) & {
@@ -219,7 +177,7 @@
 				border-color: transparent;
 				border-right-color: white;
 			}
-			
+
       &::after {
 				top: 23px;
 				left: auto;
@@ -233,15 +191,6 @@
 				right: 122%;
 				text-align: right;
 			}
-		}
-
-		.cssanimations &.is-hidden {
-			visibility: hidden;
-		}
-
-		.cssanimations &.bounce-in {
-			visibility: visible;
-			/* @include animation(cd-bounce-2 .6s); */
 		}
 	}
 }
