@@ -21,6 +21,13 @@
   background: linear-gradient(to top, $bottom, $top);
 }
 
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
 
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
@@ -285,14 +292,13 @@ h2 {
 
 /* Sections Experience and Education */
 
-.exp-period,
+@import "timeline";
+
 .ed-period {
   margin-top: 10px;
 }
 
-.exp-period,
 .ed-period,
-.exp-location,
 .ed-location {
   font-size: 0.9rem;
 }
