@@ -93,18 +93,20 @@
     text-align: left;
     margin: 0;
 		color: $dark-gray;
+    display: inline-block;
+    font-size: 1.25rem;
 	}
 
   .timeline-location {
-    font-size: 0.85rem;
+		opacity: 0.7;
+    font-size: 0.9rem;
     color: darken($light-gray, 25%);
-    float: right;
+    display: block;
   }
 
 	.timeline-date {
     font-size: 0.9rem;
     color: darken($light-gray, 25%);
-		display: inline-block;
 	}
 
 	p {

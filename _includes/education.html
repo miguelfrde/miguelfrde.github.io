@@ -3,24 +3,26 @@
     <h2>Education</h2>
 
     <h3>In place education</h3>
-    {% for education in site.data.inplace_education %}
-      <div class="row">
-        <div class="col-md-4">
-          <img src="{{ education.image | prepend: site.img_path }}"
-            alt="{{education.school}}" class="company-logo">
-          <p class="ed-period">{{ education.period }}</p>
-          <p class="ed-location">
-            <i class="fa fa-map-marker"></i>&nbsp; {{ education.location }}
-          </p>
+    <div class="timeline">
+      {% for education in site.data.inplace_education %}
+        <div class="timeline-block">
+          <div class="timeline-img">
+            <img src="{{education.icon | prepend: site.img_path }}" alt="{{ education.school }}">
+          </div>
+
+          <div class="timeline-content">
+            {% if education.image %}
+              <img src="{{ education.image | prepend: site.img_path }}" alt="{{ education.school }}">
+            {% else %}
+              <h2>{{ education.school }}</h2>
+            {% endif %}
+            <p lang="en">{{ education.description }}</p>
+            <span class="timeline-date">{{ education.period }}</span>
+            <span class="timeline-location"><i class="fa fa-map-marker"></i> {{ education.location }}</span>
+          </div>
         </div>
-        <div class="col-md-8">
-          <p class="small-title">{{ education.title }}</p>
-          <p class="ed-description">
-            {{ education.description }}
-          </p>
-        </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
 
     <h3>Online courses</h3>
     {% for platform in site.data.online_education %}

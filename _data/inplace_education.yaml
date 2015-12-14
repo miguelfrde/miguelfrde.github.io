@@ -1,5 +1,6 @@
 - school: Mälardalen University
   image: mdh.png
+  icon: mdh-icon.png
   period: August 2014 - June 2015
   location: Västerås, Sweden
   title: Exchange studies
@@ -11,6 +12,7 @@
 
 - school: ITESO
   image: iteso.png
+  icon: iteso-icon.jpg
   period: August 2011 - May 2016 (expected)
   location: Guadalajara, México
   title: BSc Computer Science
@@ -23,7 +25,7 @@
     semester with just one course.
 
 - school: Colegio Cervantes
-  image: cervantes.png
+  icon: cervantes-icon.png
   period: August 2008 - June 2011
   location: Guadalajara, México
   title: High School
