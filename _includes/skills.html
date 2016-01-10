@@ -3,21 +3,21 @@
     <h2>Skills</h2>
     {% for skilltype in site.data.skills %}
       <h3>{{ skilltype.title }}</h3>
-      
+
       <!-- TODO: fix bug when |skills| % cols == 0 -->
       {% assign inc =  skilltype.skills | size | divided_by: skilltype.cols | plus: 1 %}
       {% assign lastcol = skilltype.cols | minus: 1 %}
-      
+
       <div class="row">
         {% for i in (0..lastcol) %}
           {% assign lower = i | times: inc %}
           {% assign upper = lower | plus: inc | minus: 1 %}
-      
+
           <div class="{% if skilltype.cols == 3 %} col-md-4 {% else %} col-md-6 {% endif %}">
             <ul class="skill-list">
               {% for skillindex in (lower..upper) %}
                 {% assign skill = skilltype.skills[skillindex] %}
-      
+
                 {% if skill %}
                   <li>
                     <span class="skill-name">{{ skill.name }}</span>
@@ -32,7 +32,7 @@
                     </span>
                   </li>
                 {% endif %}
-      
+
               {% endfor %}
             </ul>
           </div>

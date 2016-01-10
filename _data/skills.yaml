@@ -3,40 +3,34 @@
   skills:
     - name: Python
       rank: 5
+    - name: JavaScript
+      rank: 5
     - name: Ruby
-      rank: 5
-    - name: Go
-      rank: 5
-    - name: Markdown
-      rank: 5
-    - name: HTML 5
-      rank: 5
-    - name: XML
-      rank: 5
-    - name: C
       rank: 4
-    - name: Perl
+    - name: Go
+      rank: 4
+    - name: C
       rank: 4
     - name: Java
       rank: 4
-    - name: JavaScript
-      rank: 4
     - name: SQL
+      rank: 4
+    - name: CSS 3
       rank: 4
     - name: Haskell
       rank: 3
-    - name: CSS 3
+    - name: Perl
       rank: 3
     - name: LaTeX
       rank: 3
-    - name: Prolog
+    - name: Shell Scripting
       rank: 3
-    - name: Standard ML
+    - name: Prolog
       rank: 2
     - name: C++
       rank: 2
-    - name: Shell Scripting
-      rank: 2
+    - name: Standard ML
+      rank: 1
     - name: MATLAB
       rank: 1
     - name: Scala
@@ -44,45 +38,43 @@
     - name: Mathematica
       rank: 1
 
-- title: Frameworks and tools
+- title: Frameworks, platforms and tools
   cols: 3
   skills:
-    - name: OSX
-      rank: 5
-    - name: JSON
-      rank: 5
-    - name: YAML
-      rank: 5
-    - name: Linux
-      rank: 4
     - name: Git
+      rank: 5
+    - name: Flask
+      rank: 4
+    - name: UNIX (OSX, Linux)
+      rank: 4
+    - name: ReactJS
+      rank: 4
+    - name: Redux
       rank: 4
     - name: JQuery
       rank: 4
     - name: Bootstrap
       rank: 4
+    - name: Google Cloud
+      rank: 4
+    - name: Gulp
+      rank: 4
+    - name: Webpack
+      rank: 3
+    - name: AngularJS
+      rank: 3
     - name: Sinatra
-      rank: 4
-    - name: Heroku
-      rank: 4
-    - name: Google App Engine
-      rank: 4
-    - name: Bower
-      rank: 4
+      rank: 3
     - name: Ionic
       rank: 3
     - name: Vim
       rank: 3
-    - name: Sublime Text
-      rank: 3
-    - name: Flask
-      rank: 3
     - name: MongoDB
       rank: 3
-    - name: AngularJS
-      rank: 2
     - name: Django
-      rank: 1
+      rank: 3
+    - name: Heroku
+      rank: 2
     - name: Ruby on Rails
       rank: 1
 
