@@ -13,16 +13,15 @@
 - school: ITESO
   image: iteso.png
   icon: iteso-icon.jpg
-  period: August 2011 - May 2016 (expected)
+  period: August 2011 - April 2016
   location: Guadalajara, México
   title: BSc Computer Science
   description: >
-    I'm currently pursuing my bachelor degree. During my studies here, I've
-    participated in many perliminary ACM contests, one of which my team was
-    first, and in one regional contest. My degree was supposed to take 4.5
-    years, but since I couldn't take one course I needed during my exchange
-    period that is requirement for another course, I expect to do one more
-    semester with just one course.
+    During my studies here, I participated in many perliminary ACM contests,
+    one of which my team was first, and in one regional contest. My degree was
+    supposed to take 4.5 years, but since I couldn't take one course I needed
+    during my exchange period that is requirement for another course, I did one
+    more semester with just one course. GPA: 9.81/10.
 
 - school: Colegio Cervantes
   icon: cervantes-icon.png
