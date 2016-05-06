@@ -86,7 +86,7 @@ university_projects:
       url: https://github.com/miguelfrde/image-segmentation
     link3:
       type: report
-      url: https://www.dropbox.com/s/gdtghavyyr1x7m1/report.pdf?dl=0
+      url: https://www.dropbox.com/s/p2ok2aleijcksqp/report.pdf?dl=0
 
   - name: Gamie
     image: gamie.png
@@ -127,7 +127,7 @@ other_projects:
       url: https://github.com/miguelfrde/community-detection
     link2:
       type: report
-      url: https://www.dropbox.com/s/jpd9r0zvs47ysd5/report.pdf?dl=0
+      url: https://www.dropbox.com/s/wfwp7w7768kbeiw/report.pdf?dl=0
 
   - name: Genetics
     period: Spring 2015
@@ -151,7 +151,7 @@ other_projects:
       url: https://github.com/miguelfrde/pyquantum
     link2:
       type: report
-      url: https://www.dropbox.com/s/lse05hhthadgcur/report.pdf?dl=0
+      url: https://www.dropbox.com/s/i6wqqiin5591v39/report.pdf?dl=0
 
   - name: Sodascript
     period: Spring 2014
