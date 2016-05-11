@@ -1,13 +1,36 @@
 # Site settings
 baseurl: ""
-url: "http://miguelfrde.com"
 css_path: "/static/css/"
 js_path: "/static/js/"
 img_path: "/static/img/"
+
+# SEO
+url: "http://miguelfrde.com"
 title: "Miguel Flores Ruiz de Eguino (miguelfrde)"
+description: >
+  My personal website. Here you can find information about things I enjoy (code, music,
+  traveling, photography), my experience, projects, social networks where you can find me, etc.
+author: miguelfrde
+logo: http://www.gravatar.com/avatar/ed4f3cbac5a1e5e45b2f9d8102238d33.png?s=500
+google_site_verification: YHzNvH1F8_UqAbVsl2ht07zAIi13m7jHvP2NLDRCaTw
+twitter:
+  username: miguelfrde
+social:
+  links:
+    - https://twitter.com/miguelfrde
+    - https://www.linkedin.com/in/miguelfrde
+    - https://plus.google.com/u/0/+MiguelFloresRuizDeEguino
+    - https://www.facebook.com/miguelfrde
+    - http://www.youtube.com/c/MiguelFloresRuizDeEguino
+    - https://www.instagram.com/miguel.frde/
+    - https://github.com/miguelfrde
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 sass:
-    style: :compressed
+  style: :compressed
+
+# Plugins
+gems:
+  - jekyll-seo-tag
