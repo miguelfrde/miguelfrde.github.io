@@ -5,6 +5,9 @@
     }, {
       "code": "SWE",
       "country": "Sweden"
+    }, {
+      "code": "USA",
+      "country": "United States of America"
     }
   ],
   "visited": [{
@@ -40,9 +43,6 @@
     }, {
       "code": "SVK",
       "country": "Slovakia"
-    }, {
-      "code": "USA",
-      "country": "United States of America"
     }
   ]
 }

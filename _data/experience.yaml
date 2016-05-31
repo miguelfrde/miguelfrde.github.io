@@ -1,13 +1,23 @@
+- company: Google
+  image: google.png
+  icon: google-icon.png
+  period: May 2016 - now
+  location: San Bruno, CA
+  position: Software Engineer
+  description: 
+
 - company: Wizeline
   image: wizeline.png
   icon: wizeline-icon.png
-  period: August 2015 - now
+  period: August 2015 - April 2016
   location: Guadalajara, México
-  position: Software Engineering Intern
+  position: Software Engineer
   description: >
-    Working with Python, JavaScript, AngularJS, ReactJS, Flask, Django, Docker
-    and Kubernetes mainly. Developed the Request API which allows to integrate
-    a small funcionality of Wizeline in third party applications.
+    Began as an intern, continued as full time. Worked mainly in the backend and
+    devops with Python, Flask, Docker and Kubernetes. Also touched other parts of the
+    stack with JavaScript, AngularJS, ReactJS, and Django. Developed the Request API
+    which allows to integrate a small funcionality of Wizeline in third party applications
+    and led the beginning of the devops team.
 
 - company: Oracle
   image: oracle.png

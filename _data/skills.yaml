@@ -47,6 +47,10 @@
       rank: 4
     - name: UNIX (OSX, Linux)
       rank: 4
+    - name: Docker
+      rank: 4
+    - name: Kubernetes
+      rank: 4
     - name: ReactJS
       rank: 4
     - name: Redux
