@@ -1,0 +1,59 @@
+==================================================================
+https://keybase.io/miguelfrde
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://miguelfrde.com
+  * I am miguelfrde (https://keybase.io/miguelfrde) on keybase.
+  * I have a public key ASDTyQNjIN6EunJlqu73C7qGjxeHCPWLBNskeI1hOqip_Qo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010114d33497e7b57ea7b3de0301cf94f93b0c4d22d2ff69b247c35bf9cfae55ea680a",
+            "host": "keybase.io",
+            "kid": "0120d3c9036320de84ba7265aaeef70bba868f178708f58b04db24788d613aa8a9fd0a",
+            "uid": "ae48bce001d554c3e127d95b74d3d919",
+            "username": "miguelfrde"
+        },
+        "service": {
+            "hostname": "miguelfrde.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1468901409,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1468901389,
+        "hash": "720faf227475688cfa322ad508c7718e6de1fcdb47c455b5c3583d717f4efb3d914b6611f87a2b7c9b57d3b75ed9f11322ee596034c402b0cc81d57d2e2c9c2b",
+        "seqno": 530751
+    },
+    "prev": "36bd35f3035e1f1e4469e09475b9410d8062f5fb9e27d5be9985add4b3068de3",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg08kDYyDehLpyZaru9wu6ho8Xhwj1iwTbJHiNYTqoqf0Kp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMTRkMzM0OTdlN2I1N2VhN2IzZGUwMzAxY2Y5NGY5M2IwYzRkMjJkMmZmNjliMjQ3YzM1YmY5Y2ZhZTU1ZWE2OD
+BhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZDNjOTAzNjMyMGRlODRiYTcyNjVhYWVlZjcwYmJhODY4ZjE3ODcwOGY1OGIwNGRiMjQ3ODhkNjEzYWE4YTlmZDBhIiwidWlkIjoiYWU0OGJjZTAwMWQ1NTRjM2UxMjdkOTViNzRkM2Q5MTkiLCJ1c2VybmFtZSI6Im1pZ3VlbGZyZGUifSwic2VydmljZSI6
+eyJob3N0bmFtZSI6Im1pZ3VlbGZyZGUuY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTYifSwiY3RpbWUiOjE0Njg5MDE0MDksImV4cGlyZV
+9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2ODkwMTM4OSwiaGFzaCI6IjcyMGZhZjIyNzQ3NTY4OGNmYTMyMmFkNTA4Yzc3MThlNmRlMWZjZGI0N2M0NTViNWMzNTgzZDcxN2Y0ZWZiM2Q5MTRiNjYxMWY4N2EyYjdjOWI1N2QzYjc1ZWQ5ZjExMzIyZWU1OTYwMzRjNDAyYjBjYzgxZDU3ZDJl
+MmM5YzJiIiwic2Vxbm8iOjUzMDc1MX0sInByZXYiOiIzNmJkMzVmMzAzNWUxZjFlNDQ2OWUwOTQ3NWI5NDEwZDgwNjJmNWZiOWUyN2Q1YmU5OTg1YWRkNGIzMDY4ZGUzIiwic2Vxbm8iOjExLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQNrfxAZStr8dRJqUAxuaWzx7QnXJo/t9f9t30/htR41dKuMYucY33HBaMV2zOu
+uNe0wOU2zbLParMKw8xM5xkA+oc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCBDF6eJjN1RhU036+j1l/9x8SNayI1wI/xerFhAbhNaKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/miguelfrde
+
+==================================================================
