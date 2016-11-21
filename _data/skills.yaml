@@ -5,8 +5,6 @@
       rank: 5
     - name: JavaScript
       rank: 5
-    - name: Ruby
-      rank: 4
     - name: Go
       rank: 4
     - name: C
@@ -19,24 +17,13 @@
       rank: 4
     - name: Haskell
       rank: 3
-    - name: Perl
-      rank: 3
-    - name: LaTeX
+    - name: Ruby
       rank: 3
     - name: Shell Scripting
       rank: 3
-    - name: Prolog
-      rank: 2
     - name: C++
       rank: 2
-    - name: Standard ML
-      rank: 1
-    - name: MATLAB
-      rank: 1
-    - name: Scala
-      rank: 1
-    - name: Mathematica
-      rank: 1
+  others: Perl, LaTeX, Prolog, StandardML, MATLAB, Scala, Mathematica
 
 - title: Frameworks, platforms and tools
   cols: 3
@@ -57,12 +44,12 @@
       rank: 4
     - name: JQuery
       rank: 4
-    - name: Bootstrap
-      rank: 4
     - name: Google Cloud
       rank: 4
     - name: Gulp
       rank: 4
+    - name: Polymer
+      rank: 3
     - name: Webpack
       rank: 3
     - name: AngularJS
@@ -73,14 +60,10 @@
       rank: 3
     - name: Vim
       rank: 3
-    - name: MongoDB
-      rank: 3
     - name: Django
       rank: 3
-    - name: Heroku
-      rank: 2
-    - name: Ruby on Rails
-      rank: 1
+  others: MongoDB, Heroku, Ruby on Rails, Bootstrap
+
 
 - title: AFK Languages
   cols: 2

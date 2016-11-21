@@ -38,6 +38,11 @@
           </div>
         {% endfor %}
       </div>
+      <div class="row skills-others">
+        {% if skilltype.others %}
+          Others things I've used at some point: {{skilltype.others }}
+        {% endif %}
+      </div>
     {% endfor %}
   </div>
 </section>
