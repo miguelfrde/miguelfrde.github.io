@@ -177,6 +177,7 @@
         Pasta with tomato sauce and chorizo.
 
     - name: Lasagna
+      picture: lasagna.jpg
       description: >
         Typical lasagne with ragu sauce, bechamel, mozzarella and parmigiano
         cheese.
