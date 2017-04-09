@@ -16,20 +16,4 @@
   period: August 2011 - April 2016
   location: Guadalajara, México
   title: BSc Computer Science
-  description: >
-    During my studies here, I participated in many perliminary ACM contests,
-    one of which my team was first, and in one regional contest. My degree was
-    supposed to take 4.5 years, but since I couldn't take one course I needed
-    during my exchange period that is requirement for another course, I did one
-    more semester with just one course. GPA: 9.81/10.
-
-- school: Colegio Cervantes
-  icon: cervantes-icon.png
-  period: August 2008 - June 2011
-  location: Guadalajara, México
-  title: High School
-  description: >
-    During my last year, I led a group of 20 people to setup and run a cybercafe
-    for a national high school sports event (Edeprem). Developed the website
-    used for the event. The technologies I used were HTML, CSS, JavaScript and
-    PHP using Wordpress with a custom theme I developed.
+  description: GPA 9.81/10
