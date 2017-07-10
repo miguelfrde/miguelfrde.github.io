@@ -1,7 +1,7 @@
 - name: Stanford
   image: stanford.png
   period: 2017 - today
-  ongoing:
+  completed:
     - name: Convolutional Neural Networks for Visual Recognition
       period: Spring 2017
       url: http://scpd.stanford.edu/search/publicCourseSearchDetails.do?method=load&courseId=42262144

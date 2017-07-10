@@ -11,6 +11,9 @@
     }
   ],
   "visited": [{
+      "code": "BIH",
+      "country": "Bosnia and Herzegovina"
+    }, {
       "code": "DNK",
       "country": "Denmark"
     }, {
@@ -22,6 +25,9 @@
     }, {
       "code": "FIN",
       "country": "Finland"
+    }, {
+      "code": "HRV",
+      "country": "Croatia"
     }, {
       "code": "HUN",
       "country": "Hungary"
@@ -35,6 +41,9 @@
       "code": "LTU",
       "country": "Lithuania"
     }, {
+      "code": "MNE",
+      "country": "Montenegro"
+    }, {
       "code": "NOR",
       "country": "Norway"
     }, {
@@ -43,6 +52,12 @@
     }, {
       "code": "SVK",
       "country": "Slovakia"
+    }, {
+      "code": "SVN",
+      "country": "Slovenia"
+    }, {
+      "code": "CHE",
+      "country": "Switzerland"
     }
   ]
 }
