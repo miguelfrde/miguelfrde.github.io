@@ -1,10 +1,21 @@
-- company: Google
+- company: Google / Fuchsia
   image: google.png
-  icon: google-icon.png
-  period: May 2016 - now
+  icon: fuchsia-icon.png
+  period: January 2018 - now
+  location: San Francisco, CA
+  position: Software Engineer
+  description: Working on exciting projects for Fuchsia!
+
+- company: Google / YouTube
+  image: google.png
+  icon: youtube-icon.png
+  period: May 2016 - December 2017
   location: San Bruno, CA
   position: Software Engineer
-  description: Working on the API layer and desktop/mobile web side of YouTube Red.
+  description: >
+      Worked on the API layer and desktop/mobile web side of YouTube Red on projects like
+      youtube.com/new and family plans for YouTube Red,
+      among others.
 
 - company: Wizeline
   image: wizeline.png
