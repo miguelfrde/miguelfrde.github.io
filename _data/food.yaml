@@ -177,6 +177,12 @@
         Spaghetti with a sauce made of tomatos, bacon, pecorino cheese, black
         pepper, optional onion and with parmigiano cheese.
 
+    - name: Gnocchi al ragu di salsiccia
+      picture: gnocchi-ragu-salsiccia.jpg
+      description: >
+        Gnocchi with a sauce made of tomatos, celery, onion, carrot, pepper,
+        oregano and salsiccia.
+
     - name: Pasta with chorizo
       picture: pastachorizo.jpg
       description: >
