@@ -177,11 +177,22 @@
         Spaghetti with a sauce made of tomatos, bacon, pecorino cheese, black
         pepper, optional onion and with parmigiano cheese.
 
+    - name: Spaghetti alla puttanesca
+      picture: pastaputtanesca.jpg
+      description: >
+        Spaghetti with a sauce made of tomatos, black olives, capers, anchovies,
+        red chili pepper, olive oil, parseley and garlic.
+
     - name: Gnocchi al ragu di salsiccia
       picture: gnocchi-ragu-salsiccia.jpg
       description: >
         Gnocchi with a sauce made of tomatos, celery, onion, carrot, pepper,
         oregano and salsiccia.
+
+    - name: Pasta allo zafferano, provolone e salsiccia al forno
+      picture: pastaprovolasalsiccia.jpg
+      description: >
+        Pasta al forno with provolone, salsiccia, white wine and parmiggiano.
 
     - name: Pasta with chorizo
       picture: pastachorizo.jpg
