@@ -107,6 +107,12 @@
 
 - category: Pasta
   dishes:
+    - name: Pasta gamberetti e zucchine
+      picture: pastagamberettizucchine.jpg
+      description: >
+        Linguine with garlic, olive oil, parsley, shrimp, red chili pepper and
+        zucchini.
+
     - name: Spaghetti aglio, olio e peperoncino
       picture: pastaaglio.jpg
       description: >
