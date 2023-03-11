@@ -1,9 +1,0 @@
-<section id="{{ category.category | downcase }}"
-  class="content-section full-page-section {{ include.sectionbg }} center">
-  <div class="container">
-    <h2>{{ category.category }}</h2>
-    {% for dish in category.dishes %}
-      {% include food/fooditem.html food=dish %}
-    {% endfor %}
-  </div>
-</section>
